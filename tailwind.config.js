@@ -1,17 +1,31 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+/** @type {import("tailwindcss").Config} */
+export default {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        padding: '1rem',
+      },
+      screens: {
+        'xs': { 'max': '576px' },
+        'sm': '576px',
+        'md': '768px',
+        'lg': '992px',
+        'xl': '1200px',
+        '2xl': '1400px',
+      },
+      fontFamily: {
+        poppins: ["var(--font-primary)"],
+        montserrat: ["var(--font-secondary)"]
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: '#24BF5A',
       },
     },
   },
   plugins: [],
-};
+}
