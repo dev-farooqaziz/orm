@@ -5,7 +5,7 @@ import AutoScroll from "embla-carousel-auto-scroll"
 
 export default function AutoScrollSlider({ wrapperClasses = " ", direction = "forward", children }) {
     const plugins = [
-        AutoScroll({ playOnInit: true, speed: 0.5, stopOnInteraction: false, stopOnMouseEnter: true, stopOnFocusIn: false, direction })
+        AutoScroll({ playOnInit: true, speed: 0.5, stopOnInteraction: false, stopOnMouseEnter: false, stopOnFocusIn: false, direction })
     ]
     const [emblaRef] = useEmblaCarousel({ align: "center", dragFree: true, loop: true }, plugins)
     return (

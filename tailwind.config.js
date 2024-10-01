@@ -24,7 +24,11 @@ export default {
       },
       colors: {
         primary: '#24BF5A',
+        secondary: '#707070',
       },
+      boxShadow: {
+        custom: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
+      }
     },
   },
   plugins: [],

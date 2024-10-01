@@ -16,7 +16,6 @@ import slideImg10 from "media/companyIcons/icon10.png"
 import slideImg11 from "media/companyIcons/icon11.png"
 import slideImg12 from "media/companyIcons/icon12.png"
 import slideImg13 from "media/companyIcons/icon13.png"
-
 //========== Slider Data
 const slider = [
     { slideImg: slideImg1 },
@@ -38,14 +37,14 @@ const Hero = ({ content }) => {
     const { BannerImg, title, para } = content;
     return (
         <>
-            <section className="flex items-end h-screen py-6 md:py-12 relative z-10 overflow-hidden">
-                <Image src={BannerImg} alt="Brand" fill={true} className="hidden lg:block -z-10 object-cover object-bottom" />
+            <section className="flex items-end h-screen py-12 relative z-10 overflow-hidden">
+                <Image src={BannerImg} alt="ORM" quality={100} priority={true} placeholder="blur" fill={true} className="block -z-10 object-cover object-bottom" />
                 <div className="container">
                     <div className="grid grid-cols-12 gap-5">
                         <div className="col-span-12 lg:col-span-7">
-                            <h2 className="text-[26px] lg:text-[34px] xl:text-[40px] 2xl:text-[50px] tracking-wide font-semibold font-poppins text-white leading-tight my-3 xl:my-5">{title}</h2>
-                            <p className="text-[16px] tracking-wide font-poppins text-white">{para}</p>
-                            <div className="flex items-center gap-10 mt-5 xl:mt-8">
+                            <h2 className="text-[40px] md:text-[50px] tracking-wide font-semibold font-poppins text-white leading-tight text-center md:text-left mb-3 xl:mb-5">{title}</h2>
+                            <p className="text-[20px] lg:text-[16px] tracking-wide font-poppins text-white">{para}</p>
+                            <div className="flex items-center justify-center md:justify-start gap-10 mt-5 xl:mt-8">
                                 <CTA
                                     text="Explore The Platform"
                                     href="tel:123456789"
@@ -55,11 +54,11 @@ const Hero = ({ content }) => {
                                 />
                             </div>
                         </div>
-                        <div className="col-span-12 mt-24">
+                        <div className="col-span-12 mt-24 mb-12 md:mb-0">
                             <AutoScrollSlider>
                                 {slider.map((item, i) => (
-                                    <div key={i} className="grow-0 shrink-0 basis-2/12 pl-4">
-                                        <Image src={item.slideImg} alt="Brand" className="aspect-[15/2] object-contain w-[200px] mx-auto" />
+                                    <div key={i} className="grow-0 shrink-0 basis-5/12 md:basis-4/12 lg:basis-2/12 pl-4">
+                                        <Image src={item.slideImg} alt="ORM" className="aspect-[15/2] object-contain w-[200px] mx-auto" />
                                     </div>
                                 ))}
                             </AutoScrollSlider>
