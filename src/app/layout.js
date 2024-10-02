@@ -13,7 +13,7 @@ const montserrat = Montserrat({
   variable: '--font-secondary'
 });
 //===== Import Components =====
-import { Header } from "@/components";
+import { Header, Footer } from "@/components";
 //===== Import Css =====
 import "./globals.css";
 //===== Meta Data =====
@@ -49,6 +49,7 @@ export default function RootLayout({ children }) {
       <body className={`${poppins.variable} ${montserrat.variable}`}>
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

@@ -6,7 +6,7 @@ import Image from "next/image";
 import { CTA } from "@/components";
 //========== Import Icons
 import { FaAngleDoubleLeft, FaAngleDown, FaBars, FaTimes } from "react-icons/fa";
-//========== Import Icons
+//========== Import Images
 import logo from 'media/icons/logo.png'
 
 const Header = () => {
@@ -46,7 +46,7 @@ const Header = () => {
             <div className="container h-full flex items-center">
                 <nav className="w-full h-full flex items-center justify-between mx-auto bg-transparent">
                     <div className="w-full lg:w-auto h-full flex flex-wrap items-center justify-between">
-                        <Link href="/" className="h-full flex items-center text-[24px] font-bold font-poppins text-black cursor-pointer lg:w-[160px] xl:w-[180px] lg:ml-2">
+                        <Link href="/" className="h-full flex items-center text-[24px] font-bold font-poppins cursor-pointer lg:w-[160px] xl:w-[180px] lg:ml-2">
                             <Image src={logo} alt="Logo" className="w-[80%]" />
                         </Link>
                     </div>

@@ -1,5 +1,5 @@
 //=============== Import Components
-import { Hero, What, Podcast, Publication, Live, Choose, Benefits, Interviews, BuyReviews, Billboard, } from "@/components";
+import { Hero, What, Podcast, Publication, Live, Choose, Benefits, Interviews, BuyReviews, Billboard, CaseStudy, Working, Expert, OurClients, } from "@/components";
 //========== Import Icons
 import { FaStar } from "react-icons/fa";
 //========== Import Hero Images
@@ -36,6 +36,10 @@ import reviewIcon5 from "media/reviewIcons/reviewIcon5.png"
 import reviewIcon6 from "media/reviewIcons/reviewIcon6.png"
 //========== Import Billboard Images
 import billBoardBg from "media/billBoardBg.png"
+//========== Import CaseStudy Images
+import caseStudy from "media/icons/caseStudy.png"
+//========== Import Working Images
+import workingImg from "media/icons/working.png"
 
 
 export default function Home() {
@@ -239,7 +243,7 @@ export default function Home() {
   // =====================
   const buyReviewsContent = {
     title: (<> Buy Positive <span className="text-primary">Reviews</span> </>),
-    para: "At Gorilla Reviews, We Understand The Importance Of A Stellar Online Reputation. ",
+    para: "At Gorilla Reviews, We Understand The Importance Of A Stellar Online Reputation.",
     cardBg: reviewCard,
     cardsData: reviewData,
   };
@@ -249,7 +253,56 @@ export default function Home() {
     para: "Times Square, a major tourist attraction known for  its iconic outdoor advertising, giant billboards, and digital displays,  makes it one of the world's most photographed landmarks",
     foldBg: billBoardBg,
   };
-  //=============== What ===============
+  //=============== CaseStudy ===============
+  const casestudyData = [
+    {
+      title: (<> Tamarack RV Park and <br className="hidden lg:block" /> Vacation Cabins </>),
+      description: "Top businesses are winning because they have a single source of truth for their reputation performance.",
+      tag: "Recreation",
+      name: "Coeur d'Alene, ID",
+      date: "Customer Since 2018",
+      slideImg: caseStudy,
+    },
+    {
+      title: (<> Tamarack RV Park and <br className="hidden lg:block" /> Vacation Cabins </>),
+      description: "Top businesses are winning because they have a single source of truth for their reputation performance.",
+      tag: "Recreation",
+      name: "Coeur d'Alene, ID",
+      date: "Customer Since 2018",
+      slideImg: caseStudy,
+    },
+    {
+      title: (<> Tamarack RV Park and <br className="hidden lg:block" /> Vacation Cabins </>),
+      description: "Top businesses are winning because they have a single source of truth for their reputation performance.",
+      tag: "Recreation",
+      name: "Coeur d'Alene, ID",
+      date: "Customer Since 2018",
+      slideImg: caseStudy,
+    },
+  ];
+  // =====================
+  const casestudyContent = {
+    title: (<> Our <span className="text-primary">Casestudy</span> </>),
+    para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying about them and can",
+    casestudyData: casestudyData,
+  };
+  //=============== Working ===============
+  const workingContent = {
+    title: (<> Just By <span className="text-primary">Working With US.</span> </>),
+    para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying",
+    workingImg: workingImg,
+  };
+  //=============== Expert ===============
+  const expertContent = {
+    title: "Boost Your Reputation – Contact Our Experts Today",
+    para: "Top Businesses Are Winning Because They Have A Single Source Of Truth For Their Reputation Performance. They Always Know What Consumers Are Saying About Them And Can Always Act On Those Insights.",
+    foldBg: foldBg,
+  };
+  //=============== OurClients ===============
+  const ourClientsContent = {
+    title: (<> <span className="text-primary">Our Client's</span> Review </>),
+    para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying",
+  };
 
   return (
     <>
@@ -263,6 +316,10 @@ export default function Home() {
       <Interviews content={interviewsContent} />
       <BuyReviews content={buyReviewsContent} />
       <Billboard content={billboardContent} />
+      <CaseStudy content={casestudyContent} />
+      <Working content={workingContent} />
+      <Expert content={expertContent} />
+      <OurClients content={ourClientsContent} />
     </>
   );
 }

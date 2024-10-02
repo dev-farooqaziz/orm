@@ -48,7 +48,7 @@ export const PrevButton = (props) => {
             type="button"
             {...restProps}
         >
-            <Image src={PrevArrow} className="w-[20px]" alt="PrevArrow" />
+            <Image src={PrevArrow} className="w-[40px]" alt="PrevArrow" />
         </button>
     )
 }
@@ -61,7 +61,7 @@ export const NextButton = (props) => {
             type="button"
             {...restProps}
         >
-            <Image src={NextArrow} className="w-[20px]" alt="NextArrow" />
+            <Image src={NextArrow} className="w-[40px]" alt="NextArrow" />
         </button>
     )
 }

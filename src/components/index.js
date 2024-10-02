@@ -14,6 +14,11 @@ const Benefits = dynamic(() => import('./benefits/Benefits'))
 const Interviews = dynamic(() => import('./interviews/Interviews'))
 const BuyReviews = dynamic(() => import('./buyreviews/BuyReviews'))
 const Billboard = dynamic(() => import('./billboard/Billboard'))
+const CaseStudy = dynamic(() => import('./casestudy/CaseStudy'))
+const Working = dynamic(() => import('./working/Working'))
+const Expert = dynamic(() => import('./expert/Expert'))
+const OurClients = dynamic(() => import('./ourclients/OurClients'))
+const Footer = dynamic(() => import('./footer/Footer'))
 
 
 export {
@@ -31,4 +36,9 @@ export {
     Interviews,
     BuyReviews,
     Billboard,
+    CaseStudy,
+    Working,
+    Expert,
+    OurClients,
+    Footer,
 }
