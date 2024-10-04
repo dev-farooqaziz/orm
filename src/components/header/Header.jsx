@@ -53,9 +53,11 @@ const Header = () => {
                     <div className="lg:flex items-center gap-20 h-full">
                         <div className={`w-[85%] md:w-[80%] lg:w-auto h-[100vh] lg:h-full flex items-center fixed top-0 z-50 lg:static bg-[#484848] lg:bg-transparent ${isMenuOpen ? 'left-0 duration-700 ease-in-out' : 'left-[-100%] duration-700 ease-in-out'}`} id="navbar-default">
                             <ul className="w-full h-full flex lg:items-center flex-col lg:flex-row lg:gap-10 xl:gap-14 space-y-10 lg:space-y-0 p-5 lg:p-0 relative">
-                                <Link href="/" className="text-[34px] font-bold font-poppins text-white cursor-pointer block lg:hidden">
-                                    <Image src={logo} alt="Logo" className="w-[50%] md:w-[25%]" />
-                                </Link>
+                                <li>
+                                    <Link href="/" className="text-[34px] font-bold font-poppins text-white cursor-pointer block lg:hidden">
+                                        <Image src={logo} alt="Logo" className="w-[50%] md:w-[25%]" />
+                                    </Link>
+                                </li>
                                 <li className="lg:h-full flex lg:items-center">
                                     <Link href="/" className="lg:h-full flex lg:items-center text-[20px] lg:text-[16px] font-medium font-poppins text-white hover:text-primary" onClick={toggleMenu}>Home</Link>
                                 </li>
