@@ -20,12 +20,12 @@ import "./globals.css";
 export const metadata = {
   metadataBase: new URL('https://orm.vercel.app/'),
   //===== Meta Tags =====
-  title: "",
-  description: "",
+  title: "Award Winning Online Reputation Management Services!",
+  description: "Award Winning Online Reputation Management Services!",
   //===== OG Tags =====
   openGraph: {
-    title: "",
-    description: "",
+    title: "Award Winning Online Reputation Management Services!",
+    description: "Award Winning Online Reputation Management Services!",
     url: '/',
     siteName: '',
     locale: 'en_US',
