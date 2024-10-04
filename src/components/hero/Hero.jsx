@@ -37,8 +37,8 @@ const Hero = ({ content }) => {
     const { BannerImg, title, para } = content;
     return (
         <>
-            <section className="flex items-end h-screen py-12 relative z-10 overflow-hidden">
-                <Image src={BannerImg} alt="ORM" quality={100} loading="lazy" placeholder="blur" fill={true} className="-z-10 object-cover object-bottom" />
+            <section className="bg-[#202124] md:bg-none flex items-end h-screen py-12 relative z-10 overflow-hidden">
+                <Image src={BannerImg} alt="ORM" quality={100} loading="lazy" fill={true} className="hidden lg:block -z-10 object-cover object-bottom" />
                 <div className="container">
                     <div className="grid grid-cols-12 gap-5">
                         <div className="col-span-12 lg:col-span-7">

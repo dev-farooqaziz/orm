@@ -17,8 +17,8 @@ const Expert = ({ content }) => {
     const { title, para, foldBg } = content;
     return (
         <>
-            <section className="py-12 lg:py-20 relative z-10 overflow-hidden">
-                <Image src={foldBg} alt="ORM" fill={true} className="block -z-10 object-cover object-bottom" />
+            <section className="bg-[#000000] lg:bg-none py-12 lg:py-20 relative z-10 overflow-hidden">
+                <Image src={foldBg} alt="ORM" fill={true} className="hidden lg:block -z-10 object-cover object-bottom" />
                 <div className="container">
                     <div className="mb-12 w-full lg:w-10/12 xl:w-full mx-auto">
                         <h2 className="text-[36px] tracking-wide leading-tight font-semibold font-poppins text-white text-center mb-4">{title}</h2>
