@@ -77,12 +77,12 @@ const Header = () => {
                                 <li className="lg:h-full flex lg:items-center">
                                     <Link href="#contact-us" className="lg:h-full flex lg:items-center text-[20px] lg:text-[16px] font-medium font-poppins text-white hover:text-primary" onClick={toggleMenu}>Contact Us</Link>
                                 </li>
-                                <div className="w-max flex items-center">
+                                <li className="w-max flex items-center">
                                     <CTA
                                         text="Book a Consultation"
                                         href="tel:123456789"
                                     />
-                                </div>
+                                </li>
                             </ul>
                         </div>
                     </div>
