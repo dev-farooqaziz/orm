@@ -19,6 +19,9 @@ const Working = dynamic(() => import('./working/Working'))
 const Expert = dynamic(() => import('./expert/Expert'))
 const OurClients = dynamic(() => import('./ourclients/OurClients'))
 const Footer = dynamic(() => import('./footer/Footer'))
+const Press = dynamic(() => import('./press/Press'))
+const Releases = dynamic(() => import('./releases/Releases'))
+const AudioPress = dynamic(() => import('./audiopress/AudioPress'))
 
 
 export {
@@ -41,4 +44,7 @@ export {
     Expert,
     OurClients,
     Footer,
+    Press,
+    Releases,
+    AudioPress,
 }

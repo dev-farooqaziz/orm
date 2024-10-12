@@ -3,7 +3,7 @@ import { Hero, What, Podcast, Publication, Live, Choose, Benefits, Interviews, B
 //========== Import Icons
 import { FaStar } from "react-icons/fa";
 //========== Import Hero Images
-import BannerImg from "media/heroBanner.png"
+import BannerImg from "media/home/heroBanner.png"
 //========== Import What Images
 import cardBg from "media/cardBg.png"
 import cardBgHvr from "media/cardBgHvr.png"
@@ -11,21 +11,21 @@ import ctaCardBg from "media/ctaCardBg.png"
 //========== Import What Images
 import foldBg from "media/foldBg.png"
 //========== Import Podcast Images
-import slide1 from "media/slide1.png"
-import slide2 from "media/slide2.png"
-import slide3 from "media/slide3.png"
-import slide4 from "media/slide4.png"
+import slide1 from "media/home/slide1.png"
+import slide2 from "media/home/slide2.png"
+import slide3 from "media/home/slide3.png"
+import slide4 from "media/home/slide4.png"
 import microphone from "media/icons/microphone.png"
 import clock from "media/icons/clock.png"
 import folder from "media/icons/folder.png"
 //========== Import Publication Images
-import news from "media/news.png"
+import news from "media/home/news.png"
 //========== Import Live Images
-import live from "media/live.png"
+import live from "media/home/live.png"
 //========== Import Benifits Images
-import benifits from "media/benefits.png"
+import benifits from "media/home/benefits.png"
 //========== Import Interviews Images
-import interviews from "media/interviews.png"
+import interviews from "media/home/interviews.png"
 //========== Import Buy Reviews Images
 import reviewCard from "media/reviewCard.png"
 import reviewIcon1 from "media/reviewIcons/reviewIcon1.png"
@@ -35,7 +35,7 @@ import reviewIcon4 from "media/reviewIcons/reviewIcon4.png"
 import reviewIcon5 from "media/reviewIcons/reviewIcon5.png"
 import reviewIcon6 from "media/reviewIcons/reviewIcon6.png"
 //========== Import Billboard Images
-import billBoardBg from "media/billBoardBg.png"
+import billBoardBg from "media/home/billBoardBg.png"
 //========== Import CaseStudy Images
 import caseStudy from "media/icons/caseStudy.png"
 //========== Import Working Images
@@ -175,7 +175,9 @@ export default function Home() {
   // =====================
   const publicationContent = {
     title: (<> News / Article <span className="text-primary block">Publication</span> </>),
-    para: "Promote your book through a team of dedicated experts who understand  your physical, emotional, and monetary investment into the project and  are ready, willing, and able to take your book marketing worldwide.",
+    paragraphs: [
+      "Promote your book through a team of dedicated experts who understand  your physical, emotional, and monetary investment into the project and  are ready, willing, and able to take your book marketing worldwide.",
+    ],
     publicantPoints: publicantPoints,
     foldBg: news,
   };
@@ -282,8 +284,11 @@ export default function Home() {
   ];
   // =====================
   const casestudyContent = {
+    bg: "bg-white",
     title: (<> Our <span className="text-primary">Casestudy</span> </>),
     para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying about them and can",
+    color: "text-black",
+    isBlack: true,
     casestudyData: casestudyData,
   };
   //=============== Working ===============

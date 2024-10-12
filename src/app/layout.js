@@ -18,7 +18,7 @@ import { Header, Footer } from "@/components";
 import "./globals.css";
 //===== Meta Data =====
 export const metadata = {
-  metadataBase: new URL('https://orm.vercel.app/'),
+  metadataBase: new URL('https://orm-new.vercel.app/'),
   //===== Meta Tags =====
   title: "Award Winning Online Reputation Management Services!",
   description: "Award Winning Online Reputation Management Services!",
@@ -27,7 +27,7 @@ export const metadata = {
     title: "Award Winning Online Reputation Management Services!",
     description: "Award Winning Online Reputation Management Services!",
     url: '/',
-    siteName: '',
+    siteName: 'ORM',
     locale: 'en_US',
     type: 'website',
   },

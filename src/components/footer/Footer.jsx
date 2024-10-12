@@ -24,7 +24,7 @@ const Footer = () => {
                                     <Image src={logo} alt="Logo" className="w-[40%] md:w-[50%] lg:w-[80%]" />
                                 </Link>
                                 <h2 className="text-[30px] md:text-[40px] tracking-wide leading-tight font-semibold font-poppins text-white mb-4">Let’s Talk About <span className="text-primary inline md:block lg:inline xl:block">Your Project!</span></h2>
-                                <div className="flex items-center gap-10 xl:gap-5">
+                                <div className="flex items-center gap-6 md:gap-10 xl:gap-5">
                                     <CTA
                                         text="Explore The Platform"
                                         href="tel:123456789"

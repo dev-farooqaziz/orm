@@ -28,7 +28,7 @@ const Live = ({ content }) => {
                                     </div>
                                 ))}
                             </div>
-                            <div className="flex items-center gap-10">
+                            <div className="flex items-center gap-6 md:gap-10">
                                 <CTA
                                     text="Book a Consultation"
                                     href="tel:123456789"

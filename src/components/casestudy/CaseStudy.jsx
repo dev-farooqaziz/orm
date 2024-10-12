@@ -4,27 +4,34 @@ import Image from "next/image";
 import { CTA, AutoPlaySlider } from "@/components";
 
 const CaseStudy = ({ content }) => {
-    const { title, para, casestudyData } = content;
+    const { bg, title, para, color, isBlack , casestudyData, arrows } = content;
     return (
         <>
-            <section className="py-12 lg:py-20">
+            <section className={`py-12 lg:py-20 ${bg}`}>
                 <div className="container">
                     <div className="grid grid-cols-12 items-center">
                         <div className="col-span-12 lg:col-span-7">
-                            <h2 className="text-[40px] md:text-[50px] tracking-wide leading-tight font-semibold font-poppins text-black text-center lg:text-left mb-4">{title}</h2>
-                            <p className="text-[16px] tracking-wide leading-loose font-poppins text-black text-center lg:text-left mb-5 lg:mb-0">{para}</p>
+                            <h2 className={`text-[40px] md:text-[50px] tracking-wide leading-tight font-semibold font-poppins ${color} text-center lg:text-left mb-4`}>{title}</h2>
+                            <p className={`text-[16px] tracking-wide leading-loose font-poppins ${color} text-center lg:text-left mb-5 lg:mb-0`}>{para}</p>
                         </div>
                         <div className="col-span-12 lg:col-span-5 flex items-center justify-center lg:justify-end">
                             <div className="w-max">
-                                <CTA
-                                    text="Book a Consultation"
-                                    black={true}
-                                />
+                                {isBlack ? (
+                                    <CTA
+                                        text="Book a Consultation"
+                                        black={true}
+                                    />
+                                ) : (
+                                    <CTA
+                                        text="Book a Consultation"
+                                        href="tel:123456789"
+                                    />
+                                )}
                             </div>
                         </div>
                     </div>
                     <div className="mt-10 lg:mt-16">
-                        <AutoPlaySlider arrowPosition="">
+                        <AutoPlaySlider arrowPosition={`${arrows}`}>
                             {casestudyData.map((item, index) => (
                                 <div key={index} className="grow-0 shrink-0 basis-[100%] md:basis-8/12 pl-4">
                                     <div className="grid grid-cols-12 items-center gap-8 md:gap-0 bg-[#202124] rounded-2xl p-8 xl:p-12">

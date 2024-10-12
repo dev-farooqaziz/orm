@@ -44,7 +44,7 @@ const Hero = ({ content }) => {
                         <div className="col-span-12 lg:col-span-7">
                             <h1 className="text-[40px] md:text-[50px] tracking-wide font-semibold font-poppins text-white leading-tight text-center md:text-left mb-3 xl:mb-5" priority={true}>{title}</h1>
                             <p className="text-[20px] lg:text-[16px] tracking-wide font-poppins text-white">{para}</p>
-                            <div className="flex items-center justify-center md:justify-start gap-10 mt-5 xl:mt-8">
+                            <div className="flex items-center justify-center md:justify-start gap-6 md:gap-10 mt-5 xl:mt-8">
                                 <CTA
                                     text="Explore The Platform"
                                     href="tel:123456789"
