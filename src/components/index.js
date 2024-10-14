@@ -22,6 +22,9 @@ const Footer = dynamic(() => import('./footer/Footer'))
 const Press = dynamic(() => import('./press/Press'))
 const Releases = dynamic(() => import('./releases/Releases'))
 const AudioPress = dynamic(() => import('./audiopress/AudioPress'))
+const OurAudios = dynamic(() => import('./ouraudios/OurAudios'))
+const Cross = dynamic(() => import('./cross/Cross'))
+const Trust = dynamic(() => import('./trust/Trust'))
 
 
 export {
@@ -47,4 +50,7 @@ export {
     Press,
     Releases,
     AudioPress,
+    OurAudios,
+    Cross,
+    Trust,
 }

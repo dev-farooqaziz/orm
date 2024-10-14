@@ -14,7 +14,7 @@ const Benefits = ({ content }) => {
                             <Image src={foldImg} alt="ORM" />
                         </div>
                         <div className="col-span-12 xl:col-span-7">
-                            <h2 className="text-[40px] md:text-[50px] tracking-wide leading-tight font-semibold font-poppins text-black text-center md:text-left mb-3 xl:mb-5">{title}</h2>
+                            <h2 className="text-[35px] md:text-[40px] xl:text-[50px] tracking-wide leading-tight font-semibold font-poppins text-black text-center md:text-left mb-3 xl:mb-5">{title}</h2>
                             <p className="text-[16px] tracking-wide leading-loose font-poppins text-black">{para}</p>
                             <div className="w-max mt-6">
                                 <CTA

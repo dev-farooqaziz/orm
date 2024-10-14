@@ -13,7 +13,7 @@ const Podcast = ({ content }) => {
                 <div className="container">
                     <div className="grid grid-cols-12 items-center gap-y-10 md:gap-10">
                         <div className="col-span-12 xl:col-span-5">
-                            <h2 className="text-[40px] md:text-[50px] tracking-wide leading-tight font-semibold font-poppins text-white text-center md:text-left mb-3 xl:mb-5">{title}</h2>
+                            <h2 className="text-[35px] md:text-[40px] xl:text-[50px] tracking-wide leading-tight font-semibold font-poppins text-white text-center md:text-left mb-3 xl:mb-5">{title}</h2>
                             <p className="text-[16px] tracking-wide leading-loose font-poppins text-white">{para}</p>
                             <div className="flex items-center gap-6 md:gap-10 mt-5 xl:mt-8">
                                 <CTA

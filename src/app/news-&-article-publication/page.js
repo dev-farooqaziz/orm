@@ -1,25 +1,27 @@
 //=============== Import Components
-import { Hero, Releases, AudioPress, OurAudios, Publication, Cross, Working, Expert, OurClients, } from "@/components";
+import { Hero, Releases, Trust, Publication, Press, Working, Expert, OurClients } from "@/components";
 //========== Import Icons
 import { FaStar } from "react-icons/fa";
 //========== Import Hero Images
-import BannerImg from "media/podcasts/heroBanner.png"
+import BannerImg from "media/news/heroBanner.png"
 //========== Import Releases Images
 import cardBg from "media/cardBg.png"
 import cardBgHvr from "media/cardBgHvr.png"
-//========== Import Press Images
-import press from "media/podcasts/press.png"
+//========== Import Trust Images
+import trust from "media/news/trust.png"
 //========== Import Fold-Bg
 import foldBg from "media/foldBg.png"
 //========== Import Publication Images
-import news from "media/podcasts/news.png"
+import news from "media/news/news.png"
+//========== Import Press Images
+import press from "media/news/press.png"
 //========== Import Working Images
 import workingImg from "media/icons/working.png"
 
 export default function Home() {
   //=============== Hero ===============
   const heroContent = {
-    title: (<> Engage Your Audience with Compelling, Professional <span className="text-primary">Podcasts</span> </>),
+    title: (<> Boost Your Visibility with Expert News and Article <span className="text-primary">Publication</span> </>),
     para: (<>
       <span className="flex flex-col md:flex-row items-center gap-2">
         4.6/5.0
@@ -37,38 +39,46 @@ export default function Home() {
   };
   //=============== Releases ===============
   const releasesContent = {
-    title: (<> Explore Latest <span className="text-primary">Podcast</span> </>),
+    title: (<> News / Article Publication <span className="text-primary">Services</span> </>),
     para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying",
     cardBg: cardBg,
     cardBgHvr: cardBgHvr,
   };
-  //=============== Press ===============
-  const pressContent = {
-    title: (<> Craft Your Story with <span className="text-primary">Impactful Podcasts</span> </>),
+  //=============== Trust ===============
+  const trustContent = {
+    title: (<> Publicity on 200 News <br className="hidden md:block" /> Sites—Build <span className="text-primary">Trust!</span> </>),
     paragraphs: [
-      "Podcasts are an innovative way to connect with your audience and share your message. Whether you're discussing industry trends, interviewing experts, or telling compelling stories, we create engaging podcast content that resonates. Our team handles everything from scripting to editing, ensuring a polished final product that captivates listeners.",
-      "Elevate your brand with high-quality podcasts that foster engagement and build community. With our expertise, your voice will reach a wider audience, creating lasting connections and driving meaningful conversations.",
+      "News and article publications are an innovative way to connect with your audience and share your message. Whether you’re reporting on industry trends, sharing expert insights, or telling compelling stories, we create engaging articles that resonate. Our team handles everything from writing to editing, ensuring a polished final product that captivates readers.",
+
+      "Elevate your brand with high-quality articles that foster engagement and build community. With our expertise, your message will reach a wider audience, creating lasting connections and driving meaningful conversations.",
     ],
     foldBg: foldBg,
-    foldImg: press,
-
+    foldImg: trust,
   };
   //=============== Publication ===============
   const publicantPoints = [
-    "Engaging Audio Content",
+    "Thorough Research Process",
+    "Engaging Content Creation",
     "Targeted Audience Reach",
-    "Expert Production Services",
-    "Quick Turnaround Time"
+    "Timely Delivery Assurance"
   ];
   // =====================
   const publicationContent = {
-    title: (<> Why Choose Our <span className="text-primary block">Podcasts?</span> </>),
+    title: (<> How Should It Be <span className="text-primary block">Executed?</span> </>),
     paragraphs: [
-      "Our podcasts are crafted by industry experts, ensuring your message is engaging, impactful, and relevant. With our extensive network, we help you reach the right audience for maximum visibility and connection.",
-      "Additionally, our quick turnaround and personalized approach guarantee that your brand stands out in today’s competitive audio landscape.",
+      "We leverage our expertise to create compelling news articles and publications that capture your audience's attention. Our team conducts thorough research, ensuring that every piece is well-informed and relevant.",
     ],
     publicantPoints: publicantPoints,
     foldBg: news,
+  };
+  //=============== Press ===============
+  const pressContent = {
+    title: (<> Create <span className="text-primary">News/Article</span> Publishing Designs That Customers Can’t Wait To Read. </>),
+    paragraphs: [
+      "We leverage our expertise to create compelling news articles and publications that capture your audience's attention. Our team conducts thorough research, ensuring that every piece is well-informed and relevant.",
+    ],
+    foldBg: foldBg,
+    foldImg: press,
   };
   //=============== Working ===============
   const workingContent = {
@@ -92,10 +102,9 @@ export default function Home() {
     <>
       <Hero content={heroContent} />
       <Releases content={releasesContent} />
-      <AudioPress content={pressContent} />
-      <OurAudios />
+      <Trust content={trustContent} />
       <Publication content={publicationContent} />
-      <Cross />
+      <Press content={pressContent} />
       <Working content={workingContent} />
       <Expert content={expertContent} />
       <OurClients content={ourClientsContent} />

@@ -15,7 +15,7 @@ const Publication = ({ content }) => {
                     <div className="grid grid-cols-12 items-center xl:gap-10">
                         <div className="col-span-12 lg:col-span-6 hidden xl:block"></div>
                         <div className="col-span-12 xl:col-span-6 xl:ml-10">
-                            <h2 className="text-[40px] md:text-[50px] tracking-wide leading-tight font-semibold font-poppins text-black text-center md:text-left mb-3 xl:mb-5">{title}</h2>
+                            <h2 className="text-[35px] md:text-[40px] xl:text-[50px] tracking-wide leading-tight font-semibold font-poppins text-black text-center md:text-left mb-3 xl:mb-5">{title}</h2>
                             {paragraphs.map((para, index) => (
                                 <p className="text-[16px] tracking-wide leading-loose font-poppins text-black mb-5">{para}</p>
                             ))}
