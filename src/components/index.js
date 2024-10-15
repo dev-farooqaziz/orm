@@ -25,6 +25,7 @@ const AudioPress = dynamic(() => import('./audiopress/AudioPress'))
 const OurAudios = dynamic(() => import('./ouraudios/OurAudios'))
 const Cross = dynamic(() => import('./cross/Cross'))
 const Trust = dynamic(() => import('./trust/Trust'))
+const Wikitia = dynamic(() => import('./wikitia/Wikitia'))
 
 
 export {
@@ -53,4 +54,5 @@ export {
     OurAudios,
     Cross,
     Trust,
+    Wikitia,
 }

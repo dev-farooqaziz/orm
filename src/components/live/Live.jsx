@@ -6,7 +6,7 @@ import { FaCheck } from "react-icons/fa";
 import { CTA } from "@/components";
 
 const Live = ({ content }) => {
-    const { foldBg, title, para, livePoints, foldImg } = content;
+    const { foldBg, title, paragraphs, livePoints, foldImg } = content;
     return (
         <>
             <section className="bg-[#000000] lg:bg-none py-12 lg:py-20 xl:py-28 relative z-10 overflow-hidden">
@@ -15,7 +15,9 @@ const Live = ({ content }) => {
                     <div className="grid grid-cols-12 items-center gap-y-10 md:gap-10">
                         <div className="col-span-12 lg:col-span-6">
                             <h2 className="text-[35px] md:text-[40px] xl:text-[50px] tracking-wide leading-tight font-semibold font-poppins text-white text-center md:text-left mb-3 xl:mb-5">{title}</h2>
-                            <p className="text-[16px] tracking-wide leading-loose font-poppins text-white">{para}</p>
+                            {paragraphs.map((para, index) => (
+                                <p key={index} className="text-[16px] tracking-wide leading-loose font-poppins text-white mb-5">{para}</p>
+                            ))}
                             <div className="grid grid-cols-12 items-center gap-y-2 my-5 xl:my-8">
                                 {livePoints.map((item, index) => (
                                     <div className="col-span-12 lg:col-span-6" key={index}>

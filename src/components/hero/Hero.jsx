@@ -54,7 +54,7 @@ const Hero = ({ content }) => {
                                 />
                             </div>
                         </div>
-                        <div className="col-span-12 mt-24 mb-12 md:mb-0">
+                        <div className="col-span-12 mt-16 2xl:mt-24 mb-12 md:mb-0">
                             <AutoScrollSlider>
                                 {slider.map((item, i) => (
                                     <div key={i} className="grow-0 shrink-0 basis-5/12 md:basis-4/12 lg:basis-2/12 pl-4">

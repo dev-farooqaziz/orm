@@ -191,7 +191,9 @@ export default function Home() {
   // =====================
   const liveContent = {
     title: "Live Session",
-    para: "Insightful conversations, expert interviews, and engaging stories that delve into [topic/industry/interest]. Whether you’re looking for inspiration, the latest trends, or just a fresh perspective, our episodes offer something for everyone. Join us each week for a new episode that will keep you informed and entertained.",
+    paragraphs: [
+      "Insightful conversations, expert interviews, and engaging stories that delve into [topic/industry/interest]. Whether you’re looking for inspiration, the latest trends, or just a fresh perspective, our episodes offer something for everyone. Join us each week for a new episode that will keep you informed and entertained.",
+    ],
     livePoints: livePoints,
     foldBg: foldBg,
     foldImg: live,
