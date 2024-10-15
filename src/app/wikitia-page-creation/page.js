@@ -21,7 +21,7 @@ import workingImg from "media/icons/working.png"
 export default function Home() {
   //=============== Hero ===============
   const heroContent = {
-    title: (<> Establish Your Online Presence with Expert <span className="text-primary">Wikitia Page Creation</span> </>),
+    title: (<> Establish Your Online Presence with Expert <span className="text-primary block">Wikitia Page Creation</span> </>),
     para: (<>
       <span className="flex flex-col md:flex-row items-center gap-2">
         4.6/5.0
