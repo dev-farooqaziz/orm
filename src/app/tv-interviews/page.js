@@ -1,25 +1,25 @@
 //=============== Import Components
-import { Hero, Releases, AudioPress, OurAudios, Publication, Cross, Working, Expert, OurClients, } from "@/components";
+import { Hero, Releases, TvInterview, Publication, Trends, Solutions, Working, Expert, OurClients } from "@/components";
 //========== Import Icons
 import { FaStar } from "react-icons/fa";
 //========== Import Hero Images
-import BannerImg from "media/podcasts/heroBanner.png"
+import BannerImg from "media/interviews/heroBanner.png"
 //========== Import Releases Images
 import cardBg from "media/cardBg.png"
 import cardBgHvr from "media/cardBgHvr.png"
-//========== Import Press Images
-import press from "media/podcasts/press.png"
 //========== Import Fold-Bg
 import foldBg from "media/foldBg.png"
 //========== Import Publication Images
-import news from "media/podcasts/news.png"
+import news from "media/interviews/news.png"
+//========== Import Solutions Images
+import reviewCard from "media/reviewCard.png"
 //========== Import Working Images
 import workingImg from "media/icons/working.png"
 
 export default function Home() {
   //=============== Hero ===============
   const heroContent = {
-    title: (<> Engage Your Audience <br className="hidden xl:block" /> with Compelling, <br className="hidden xl:block" /> Professional <span className="text-primary">Podcasts</span> </>),
+    title: (<> Amplify Your Brand <br className="hidden xl:block" /> with Strategic <span className="text-primary xl:block">TV Interviews</span> </>),
     para: (<>
       <span className="flex flex-col md:flex-row items-center gap-2">
         4.6/5.0
@@ -37,38 +37,56 @@ export default function Home() {
   };
   //=============== Releases ===============
   const releasesContent = {
-    title: (<> Explore Latest <span className="text-primary">Podcast</span> </>),
+    title: (<> The Most-Advanced, <br className="hidden xl:block" /> All-In-One <span className="text-primary">Video Interview!</span> </>),
     para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying",
     cardBg: cardBg,
     cardBgHvr: cardBgHvr,
   };
-  //=============== Press ===============
-  const pressContent = {
-    title: (<> Craft Your Story with <span className="text-primary">Impactful Podcasts</span> </>),
-    paragraphs: [
-      "Podcasts are an innovative way to connect with your audience and share your message. Whether you're discussing industry trends, interviewing experts, or telling compelling stories, we create engaging podcast content that resonates. Our team handles everything from scripting to editing, ensuring a polished final product that captivates listeners.",
-      "Elevate your brand with high-quality podcasts that foster engagement and build community. With our expertise, your voice will reach a wider audience, creating lasting connections and driving meaningful conversations.",
-    ],
-    foldBg: foldBg,
-    foldImg: press,
-
-  };
   //=============== Publication ===============
   const publicantPoints = [
-    "Engaging Audio Content",
+    "Thorough Research Process",
+    "Engaging Content Creation",
     "Targeted Audience Reach",
-    "Expert Production Services",
-    "Quick Turnaround Time"
+    "Timely Delivery Assurance"
   ];
   // =====================
   const publicationContent = {
-    title: (<> Why Choose Our <span className="text-primary block">Podcasts?</span> </>),
+    title: (<> What Can TV <span className="text-primary">Placement</span> Do For <br /> You? </>),
     paragraphs: [
-      "Our podcasts are crafted by industry experts, ensuring your message is engaging, impactful, and relevant. With our extensive network, we help you reach the right audience for maximum visibility and connection.",
-      "Additionally, our quick turnaround and personalized approach guarantee that your brand stands out in today’s competitive audio landscape.",
+      "We leverage our expertise to create compelling news articles and publications that capture your audience's attention. Our team conducts thorough research, ensuring that every piece is well-informed and relevant.",
     ],
     publicantPoints: publicantPoints,
     foldBg: news,
+  };
+  //=============== Solutions ===============
+  const cardData = [
+    {
+      title: "Reputation Analysis",
+      para: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla Sapien Nulla, Finibus Vel Malesuada Sed."
+    },
+    {
+      title: "Content Creation",
+      para: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla Sapien Nulla, Finibus Vel Malesuada Sed."
+    },
+    {
+      title: "Publishing",
+      para: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla Sapien Nulla, Finibus Vel Malesuada Sed."
+    },
+    {
+      title: "Promotion",
+      para: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla Sapien Nulla, Finibus Vel Malesuada Sed."
+    },
+  ];
+  // =====================
+  const solutionContent = {
+    foldBg: foldBg,
+    title: (<> TV Interviews <span className="text-primary">Solutions!</span> </>),
+    para: "Explore the latest trends in cross-podcasting, focusing on collaboration, innovative formats, and strategies to enhance audience engagement and expand reach.",
+    cardData: cardData,
+    cardBg: reviewCard,
+    bgColor: "bg-white pb-0",
+    textColor: "text-black",
+    isBg: false
   };
   //=============== Working ===============
   const workingContent = {
@@ -92,10 +110,10 @@ export default function Home() {
     <>
       <Hero content={heroContent} />
       <Releases content={releasesContent} />
-      <AudioPress content={pressContent} />
-      <OurAudios />
+      <TvInterview />
       <Publication content={publicationContent} />
-      <Cross />
+      <Trends />
+      <Solutions content={solutionContent} />
       <Working content={workingContent} />
       <Expert content={expertContent} />
       <OurClients content={ourClientsContent} />

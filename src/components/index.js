@@ -26,6 +26,12 @@ const OurAudios = dynamic(() => import('./ouraudios/OurAudios'))
 const Cross = dynamic(() => import('./cross/Cross'))
 const Trust = dynamic(() => import('./trust/Trust'))
 const Wikitia = dynamic(() => import('./wikitia/Wikitia'))
+const Possibilities = dynamic(() => import('./possibilities/Possibilities'))
+const Solutions = dynamic(() => import('./solutions/Solutions'))
+const Advertising = dynamic(() => import('./advertising/Advertising'))
+const OurReview = dynamic(() => import('./ourreview/OurReview'))
+const TvInterview = dynamic(() => import('./tvinterview/TvInterview'))
+const Trends = dynamic(() => import('./trends/Trends'))
 
 
 export {
@@ -55,4 +61,10 @@ export {
     Cross,
     Trust,
     Wikitia,
+    Possibilities,
+    Solutions,
+    Advertising,
+    OurReview,
+    TvInterview,
+    Trends,
 }

@@ -12,7 +12,7 @@ const Billboard = ({ content }) => {
                 <div className="container">
                     <div className="grid grid-cols-12 gap-5">
                         <div className="col-span-12 md:col-span-8 lg:col-span-6 xl:col-span-5">
-                            <div className="bg-white/20 md:bg-black/50 backdrop-blur-lg rounded-[25px] overflow-hidden px-6 py-8 md:px-8 md:py-12">
+                            <div className="bg-transparent md:bg-black/50 backdrop-blur-lg md:rounded-[25px] overflow-hidden px-0 py-0 md:px-8 md:py-12">
                                 <h2 className="text-[35px] md:text-[40px] xl:text-[50px] tracking-wide font-semibold font-poppins text-white leading-tight text-center md:text-left mb-3 xl:mb-5">{title}</h2>
                                 <p className="text-[16px] tracking-wide font-poppins text-white">{para}</p>
                                 <div className="flex flex-col md:flex-row gap-5 md:gap-10 mt-5 xl:mt-8">
@@ -29,7 +29,7 @@ const Billboard = ({ content }) => {
                                         <p className="text-[16px] font-poppins text-white">Average Daily Pedestrian Count -  Over 286K+ pedestrians passing through daily.</p>
                                     </div>
                                 </div>
-                                <div className="flex items-center gap-5 md:gap-10 mt-5 xl:mt-8">
+                                <div className="flex items-center gap-4 md:gap-10 mt-5 xl:mt-8">
                                     <CTA
                                         text="Explore The Platform"
                                         href="tel:123456789"

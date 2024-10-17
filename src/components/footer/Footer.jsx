@@ -40,7 +40,7 @@ const Footer = () => {
                         </div>
                         <div className="flex flex-col gap-10">
                             <div className="flex items-end gap-5 md:gap-20 xl:gap-10">
-                                <Image src={Lisbon} alt="ORM" className="w-[45%] md:w-[30%]" />
+                                <Image src={Lisbon} alt="ORM" className="w-[35%] md:w-[30%]" />
                                 <div className="flex flex-col gap-2">
                                     <h3 className="text-[16px] font-semibold tracking-wide font-poppins text-white">USA, LA (HQ)</h3>
                                     <div className="flex flex-col gap-1">
@@ -60,7 +60,7 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className="flex items-end gap-5 md:gap-20 xl:gap-10">
-                                <Image src={London} alt="ORM" className="w-[45%] md:w-[30%]" />
+                                <Image src={London} alt="ORM" className="w-[35%] md:w-[30%]" />
                                 <div className="flex flex-col gap-2">
                                     <h3 className="text-[16px] font-semibold tracking-wide font-poppins text-white">LONDON</h3>
                                     <div className="flex flex-col gap-1">
@@ -80,7 +80,7 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className="flex items-end gap-5 md:gap-20 xl:gap-10">
-                                <Image src={NYC} alt="ORM" className="w-[45%] md:w-[30%]" />
+                                <Image src={NYC} alt="ORM" className="w-[35%] md:w-[30%]" />
                                 <div className="flex flex-col gap-2">
                                     <h3 className="text-[16px] font-semibold tracking-wide font-poppins text-white">USA, NYC</h3>
                                     <div className="flex flex-col gap-1">
@@ -99,7 +99,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex items-center justify-center md:justify-start gap-14 xl:gap-10 mt-6">
+                            <div className="flex items-center justify-between md:justify-start md:gap-14 xl:gap-10 mt-6">
                                 <div className="bg-white p-2 rounded-md cursor-pointer group hover:bg-primary">
                                     <FaFacebookF className="text-[30px] group-hover:text-white" />
                                 </div>

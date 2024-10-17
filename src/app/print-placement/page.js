@@ -1,27 +1,29 @@
 //=============== Import Components
-import { Hero, Releases, Press, Publication, CaseStudy, Working, Expert, OurClients } from "@/components";
+import { Hero, Releases, Press, Publication, Possibilities, Working, Expert, OurClients } from "@/components";
 //========== Import Icons
 import { FaStar } from "react-icons/fa";
 //========== Import Hero Images
-import BannerImg from "media/press/heroBanner.png"
+import BannerImg from "media/magazine/heroBanner.png"
 //========== Import Releases Images
 import cardBg from "media/cardBg.png"
 import cardBgHvr from "media/cardBgHvr.png"
-//========== Import Press Images
-import press from "media/press/press.png"
 //========== Import Fold-Bg
 import foldBg from "media/foldBg.png"
+//========== Import Press Images
+import press from "media/magazine/press.png"
 //========== Import Publication Images
-import news from "media/press/news.png"
-//========== Import CaseStudy Images
-import caseStudy from "media/icons/caseStudy.png"
+import news from "media/magazine/news.png"
+//========== Import Possibilities Images
+import imagine1 from "media/magazine/imagine1.png"
+import imagine2 from "media/magazine/imagine2.png"
+import imagine3 from "media/magazine/imagine3.png"
 //========== Import Working Images
 import workingImg from "media/icons/working.png"
 
 export default function Home() {
   //=============== Hero ===============
   const heroContent = {
-    title: (<> Maximize Visibility <br className="hidden xl:block" /> with Powerful Press <span className="text-primary hidden xl:block">Releases</span> </>),
+    title: (<> Maximize Your Reach <br className="hidden xl:block" /> with Expert Print <br className="hidden xl:block" /> Placement in <span className="text-primary">Magazines</span> </>),
     para: (<>
       <span className="flex flex-col md:flex-row items-center gap-2">
         4.6/5.0
@@ -39,73 +41,61 @@ export default function Home() {
   };
   //=============== Releases ===============
   const releasesContent = {
-    title: (<> Press Releases <span className="text-primary">Services</span> </>),
+    title: (<> 6 Impressive Design Tools <br className="hidden lg:block" /> for <span className="text-primary">Magazines</span> </>),
     para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying",
     cardBg: cardBg,
     cardBgHvr: cardBgHvr,
   };
   //=============== Press ===============
   const pressContent = {
-    title: (<> Press <span className="text-primary">Releases</span> </>),
+    title: (<> Always- <span className="text-primary">On Print</span> Placement: All Social in One Place </>),
     paragraphs: [
-      "Press releases are a powerful tool to share your news with the world. From product launches to company milestones, we craft tailored press releases that grab attention. Our distribution channels ensure your story reaches the right audience for maximum impact.",
-      "Get your message out there with professionally written press releases. We create compelling content and distribute it to media outlets, driving brand visibility.",
+      "Wikitia pages are a powerful way to enhance your online presence and showcase your achievements. Whether you're building personal credibility, promoting your brand, or sharing important milestones, we create expertly crafted Wikitia pages that capture attention.",
+      "Elevate your brand with a high-quality Wikitia page that boosts credibility and visibility.",
     ],
     foldBg: foldBg,
     foldImg: press,
   };
   //=============== Publication ===============
   const publicantPoints = [
-    "Expertly Crafted Content",
-    "Targeted Media Distribution",
-    "Maximum Brand Visibility",
-    "Fast Turnaround Time"
+    "Thorough Research Process",
+    "Engaging Content Creation",
+    "Targeted Audience Reach",
+    "Timely Delivery Assurance"
   ];
   // =====================
   const publicationContent = {
-    title: (<> Why Choose Our <span className="text-primary block">Press Releases?</span> </>),
+    title: (<> Why Choose Our <br className="hidden lg:block" /> Print Placement <span className="text-primary">(Magazine)?</span> </>),
     paragraphs: [
-      "Our press releases are crafted by industry experts, ensuring your message is clear, impactful, and newsworthy. With targeted distribution to top media outlets, we help you reach the right audience for maximum visibility.",
-      "Plus, our fast turnaround and personalized approach guarantee your brand stands out in today’s competitive media landscape.",
+      "We leverage our expertise to create compelling news articles and publications that capture your audience's attention. Our team conducts thorough research, ensuring that every piece is well-informed and relevant.",
     ],
     publicantPoints: publicantPoints,
     foldBg: news,
   };
-  //=============== CaseStudy ===============
-  const casestudyData = [
+  //=============== Possibilities ===============
+  const cardData = [
     {
-      title: (<> Tamarack RV Park and <br className="hidden lg:block" /> Vacation Cabins </>),
-      description: "Top businesses are winning because they have a single source of truth for their reputation performance.",
-      tag: "Recreation",
-      name: "Coeur d'Alene, ID",
-      date: "Customer Since 2018",
-      slideImg: caseStudy,
+      title: "Increased Online Visibility",
+      para: "Top Businesses Are Winning Because They Have A Single Source Of Truth For Their Reputation Performance. They Always Know What Consumers Are Saying About Them And Can Always Act On Those Insights.",
+      img: imagine1,
     },
     {
-      title: (<> Tamarack RV Park and <br className="hidden lg:block" /> Vacation Cabins </>),
-      description: "Top businesses are winning because they have a single source of truth for their reputation performance.",
-      tag: "Recreation",
-      name: "Coeur d'Alene, ID",
-      date: "Customer Since 2018",
-      slideImg: caseStudy,
+      title: "SEO Boost",
+      para: "Top Businesses Are Winning Because They Have A Single Source Of Truth For Their Reputation Performance. They Always Know What Consumers Are Saying About Them And Can Always Act On Those Insights.",
+      img: imagine2,
     },
     {
-      title: (<> Tamarack RV Park and <br className="hidden lg:block" /> Vacation Cabins </>),
-      description: "Top businesses are winning because they have a single source of truth for their reputation performance.",
-      tag: "Recreation",
-      name: "Coeur d'Alene, ID",
-      date: "Customer Since 2018",
-      slideImg: caseStudy,
+      title: "Detailed Storytelling",
+      para: "Top Businesses Are Winning Because They Have A Single Source Of Truth For Their Reputation Performance. They Always Know What Consumers Are Saying About Them And Can Always Act On Those Insights.",
+      img: imagine3,
     },
   ];
   // =====================
-  const casestudyContent = {
-    bg: "bg-black",
-    title: (<> Our <span className="text-primary">Casestudy</span> </>),
-    para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying about them and can",
-    color: "text-white",
-    casestudyData: casestudyData,
-    arrows: "invert",
+  const possibleContent = {
+    foldBg: foldBg,
+    title: (<> Imagine The <span className="text-primary">Possibilities</span> </>),
+    para: "We leverage our expertise to create compelling news articles and publications that capture your audience's attention. Our team conducts thorough research, ensuring that every piece is well-informed and relevant.",
+    cardData: cardData,
   };
   //=============== Working ===============
   const workingContent = {
@@ -131,7 +121,7 @@ export default function Home() {
       <Releases content={releasesContent} />
       <Press content={pressContent} />
       <Publication content={publicationContent} />
-      <CaseStudy content={casestudyContent} />
+      <Possibilities content={possibleContent} />
       <Working content={workingContent} />
       <Expert content={expertContent} />
       <OurClients content={ourClientsContent} />
