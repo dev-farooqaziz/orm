@@ -32,3 +32,21 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #24bf5a;
 }
+
+/* ============ scroll bar css ============ */
+
+.popup {
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  transform: translateY(-150%);
+  opacity: 0;
+}
+
+.popup-enter {
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+.popup-exit {
+  transform: translateY(-150%);
+  opacity: 0;
+}

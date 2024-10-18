@@ -75,7 +75,7 @@ const Trends = () => {
                     {trendsData.map((item, index) => (
                         <div key={index}>
                             <div className="rounded-lg overflow-hidden">
-                                <Image src={item.image} priority={true} alt="ORM" />
+                                <Image src={item.image} priority="true" alt="ORM" />
                             </div>
                             <div className="flex flex-col gap-5 mt-6">
                                 <h3 className="text-[20px] tracking-wide font-semibold font-poppins text-white">

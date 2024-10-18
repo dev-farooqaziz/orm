@@ -1,12 +1,9 @@
 //=============== Import Components
-import { Hero, Releases, Live, Publication, Wikitia, Working, Expert, OurClients } from "@/components";
+import { Hero, Live, Publication, Wikitia, Working, Expert, OurClients } from "@/components";
 //========== Import Icons
 import { FaStar } from "react-icons/fa";
 //========== Import Hero Images
 import BannerImg from "media/wikitia/heroBanner.png"
-//========== Import Releases Images
-import cardBg from "media/cardBg.png"
-import cardBgHvr from "media/cardBgHvr.png"
 //========== Import Live Images
 import press from "media/wikitia/press.png"
 //========== Import Fold-Bg
@@ -36,13 +33,6 @@ export default function Home() {
       </span>
     </>),
     BannerImg: BannerImg,
-  };
-  //=============== Releases ===============
-  const releasesContent = {
-    title: (<> Wikitia Page Creation <span className="text-primary">Services</span> </>),
-    para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying",
-    cardBg: cardBg,
-    cardBgHvr: cardBgHvr,
   };
   //=============== Live ===============
   const livePoints = [
@@ -126,7 +116,6 @@ export default function Home() {
   return (
     <>
       <Hero content={heroContent} />
-      <Releases content={releasesContent} />
       <Live content={liveContent} />
       <Publication content={publicationContent} />
       <Wikitia content={wikitiaContent} />

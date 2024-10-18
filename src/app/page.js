@@ -1,5 +1,5 @@
 //=============== Import Components
-import { Hero, What, Podcast, Publication, Live, Choose, Benefits, Interviews, BuyReviews, Billboard, CaseStudy, Working, Expert, OurClients, } from "@/components";
+import { Hero, What, Podcast, Publication, Live, Choose, Benefits, Interviews, BuyReviews, Billboard, CaseStudy, Working, Expert, OurClients } from "@/components";
 //========== Import Icons
 import { FaStar } from "react-icons/fa";
 //========== Import Hero Images
@@ -40,7 +40,6 @@ import billBoardBg from "media/home/billBoardBg.png"
 import caseStudy from "media/icons/caseStudy.png"
 //========== Import Working Images
 import workingImg from "media/icons/working.png"
-
 
 export default function Home() {
   //=============== Hero ===============

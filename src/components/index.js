@@ -32,7 +32,7 @@ const Advertising = dynamic(() => import('./advertising/Advertising'))
 const OurReview = dynamic(() => import('./ourreview/OurReview'))
 const TvInterview = dynamic(() => import('./tvinterview/TvInterview'))
 const Trends = dynamic(() => import('./trends/Trends'))
-
+const Channels = dynamic(() => import('./channels/Channels'))
 
 export {
     AutoPlaySlider,
@@ -67,4 +67,5 @@ export {
     OurReview,
     TvInterview,
     Trends,
+    Channels,
 }

@@ -91,7 +91,7 @@ const Cross = () => {
                         {podcastData.map((item, index) => (
                             <div key={index}>
                                 <div className="rounded-lg overflow-hidden">
-                                    <Image src={item.slideImg} priority={true} alt="ORM" />
+                                    <Image src={item.slideImg} priority="true" alt="ORM" />
                                 </div>
                                 <div className="flex flex-col mt-6">
                                     <h3 className="text-[20px] tracking-wide font-semibold font-poppins text-white">

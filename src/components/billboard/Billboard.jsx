@@ -8,7 +8,7 @@ const Billboard = ({ content }) => {
     return (
         <>
             <section className="bg-[#000000] md:bg-none flex items-center py-12 lg:py-20 relative z-10 overflow-hidden">
-                <Image src={foldBg} alt="ORM" quality={100} priority={true} placeholder="blur" fill={true} className="hidden md:block -z-10 object-cover object-bottom" />
+                <Image src={foldBg} alt="ORM" quality={100} priority="true" placeholder="blur" fill={true} className="hidden md:block -z-10 object-cover object-bottom" />
                 <div className="container">
                     <div className="grid grid-cols-12 gap-5">
                         <div className="col-span-12 md:col-span-8 lg:col-span-6 xl:col-span-5">
