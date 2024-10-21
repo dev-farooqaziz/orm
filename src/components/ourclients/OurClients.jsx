@@ -42,7 +42,7 @@ const OurClients = ({ content }) => {
                     <div className="mt-6 lg:mt-10">
                         <AutoPlaySlider arrowPosition="mt-5">
                             {clientsData.map((item, index) => (
-                                <div key={index} className="grow-0 shrink-0 basis-[100%] md:basis-10/12 lg:basis-8/12 xl:basis-6/12 pl-4 py-5">
+                                <div key={index} className="grow-0 shrink-0 basis-[100%] md:basis-10/12 lg:basis-8/12 xl:basis-6/12 pl-5 py-5">
                                     <div className="grid grid-cols-12 items-center gap-6 rounded-[30px] overflow-hidden shadow-custom">
                                         <div className="col-span-12 md:col-span-5">
                                             <div className="relative group cursor-pointer overflow-hidden">

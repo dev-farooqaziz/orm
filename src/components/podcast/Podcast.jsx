@@ -26,9 +26,9 @@ const Podcast = ({ content }) => {
                             </div>
                         </div>
                         <div className="col-span-12 xl:col-span-7">
-                            <AutoPlaySlider arrowPosition="hidden">
+                            <AutoPlaySlider arrowPosition="hidden" options={{align: "start"}}>
                                 {podcastData.map((item, index) => (
-                                    <div key={index} className="grow-0 shrink-0 basis-7/12 pl-4">
+                                    <div key={index} className="grow-0 shrink-0 basis-[100%] md:basis-8/12 lg:basis-7/12 pl-5">
                                         <div className="rounded-lg overflow-hidden">
                                             <Image src={item.slideImg} priority="true" alt="ORM" />
                                         </div>
