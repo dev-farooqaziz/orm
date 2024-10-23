@@ -20,7 +20,7 @@ import workingImg from "media/icons/working.png"
 export default function Home() {
   //=============== Hero ===============
   const heroContent = {
-    title: (<> Online Reputation Audit, <br className="hidden xl:block" /> Review Management, <br className="hidden xl:block" /> and Knowledge <span className="text-primary">Panel Solutions</span> </>),
+    title: (<> Powerful <span className="text-primary">Online <br className="hidden md:block" /> Reputation</span> Audits <br className="hidden md:block" /> Company to Boost Your Brand’s Trustworthiness </>),
     para: (<>
       <span className="flex flex-wrap md:flex-nowrap justify-center md:justify-start items-center gap-2">
         Rated 4.6/5.0
@@ -34,34 +34,36 @@ export default function Home() {
         <span className="hidden md:block">|</span> Trusted by 15+ Businesses <span className="hidden md:block">|</span> <br className="block md:hidden" /> 135+ happy clients
       </span>
     </>),
-    cta1Txt: "Explore The Platform",
+    cta1Txt: "Book Consultation",
     cta2Txt: "Watch Demo",
     BannerImg: BannerImg,
   };
   //=============== Advertising ===============
   const advertisContent = {
-    title: (<> Online <br className="hidden xl:block" /> Reputation <span className="text-primary">Audit</span> </>),
+    title: (<> Comprehensive <span className="text-primary">Online Reputation</span> Audit Services to Elevate Your Brand </>),
     paragraphs: [
-      "Podcasts are an innovative way to connect with your audience and share your message. Whether you're discussing industry trends, interviewing experts, or telling compelling stories, we create engaging podcast content that resonates. Our team handles everything from scripting to editing, ensuring a polished final product that captivates listeners.",
-      "Elevate your brand with high-quality podcasts that foster engagement and build community. With our expertise, your voice will reach a wider audience, creating lasting connections and driving meaningful conversations.",
+      (<> Our <i>online reputation audit</i> services provide an in-depth look into how your brand is perceived across digital channels. By thoroughly analyzing reviews, social media interactions, and search engine results, we uncover hidden issues that may be affecting your reputation. We offer <i>specialized reputation management audit services</i> that are tailored to identify potential threats and opportunities for improvement. </>),
+      "Our audit process not only highlights current challenges but also provides actionable insights to build a stronger, more positive online presence.",
     ],
     foldBg: news,
   };
   //=============== OurReview ===============
   const ourReviewContent = {
-    title: (<> Review <span className="text-primary block">Management</span> </>),
+    bgColor: "bg-black xl:bg-white",
+    textColor: "text-white xl:text-black",
+    title: (<> Expert <span className="text-primary">Review Management</span> to Safeguard Your Brand’s Online Reputation </>),
     paragraphs: [
-      "Podcasts are an innovative way to connect with your audience and share your message. Whether you're discussing industry trends, interviewing experts, or telling compelling stories, we create engaging podcast content that resonates. Our team handles everything from scripting to editing, ensuring a polished final product that captivates listeners.",
-      "Elevate your brand with high-quality podcasts that foster engagement and build community. With our expertise, your voice will reach a wider audience, creating lasting connections and driving meaningful conversations.",
+      (<> Effective <i>review management</i> is essential for maintaining a positive online reputation. Our specialized services ensure that your brand is accurately represented by addressing customer feedback promptly and professionally. We monitor reviews across various platforms and provide strategies to enhance positive visibility while mitigating the impact of negative feedback. </>),
+      "We help businesses stay ahead of potential reputation risks, fostering a positive brand image and building trust with your audience. Let us handle the complexities of managing online reviews while you focus on growing your business.",
     ],
     foldBg: review,
   };
   //=============== Advertising2 ===============
   const advertis2Content = {
-   title: (<> Google <br className="hidden xl:block" /> Knowledge <span className="text-primary">Panel</span> </>),
+    title: (<> Optimize Your <span className="text-primary">Google Knowledge Panel</span> for Enhanced Brand Authority </>),
     paragraphs: [
-      "Podcasts are an innovative way to connect with your audience and share your message. Whether you're discussing industry trends, interviewing experts, or telling compelling stories, we create engaging podcast content that resonates. Our team handles everything from scripting to editing, ensuring a polished final product that captivates listeners.",
-      "Elevate your brand with high-quality podcasts that foster engagement and build community. With our expertise, your voice will reach a wider audience, creating lasting connections and driving meaningful conversations.",
+      (<> A well-managed <i>Google Knowledge Panel</i> is key to ensuring your business stands out in search results. Our <i>specialized reputation management audit services</i> help you optimize this vital digital asset, ensuring accurate, up-to-date information about your brand is displayed to potential customers. </>),
+      "We analyze and improve the visibility of your Knowledge Panel, making sure it accurately reflects your business, services, and achievements. We help you build trust and credibility with your audience, driving more engagement and potential leads.",
     ],
     foldBg: news2,
   };
@@ -69,26 +71,26 @@ export default function Home() {
   const cardData = [
     {
       title: "Billboard Advertising",
-      para: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla Sapien Nulla, Finibus Vel Malesuada Sed."
+      para: "Leverage our expertise in targeted billboard advertising to create maximum visibility and strengthen your brand presence."
     },
     {
       title: "Interactive Installations",
-      para: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla Sapien Nulla, Finibus Vel Malesuada Sed."
+      para: "Engage your audience with innovative interactive installations that not only capture attention but also improve brand perception."
     },
     {
       title: "Event Sponsorships",
-      para: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla Sapien Nulla, Finibus Vel Malesuada Sed."
+      para: (<> We help your brand shine, using our <i>reputation management audit</i> and ensure the best results in enhancing your digital footprint. </>)
     },
     {
       title: "Brand Activations",
-      para: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla Sapien Nulla, Finibus Vel Malesuada Sed."
+      para: "Our services help build stronger connections with your target audience while maintaining a positive online presence."
     },
   ];
   // =====================
   const solutionContent = {
     foldBg: foldBg,
-    title: (<> Online Reputation <br className="hidden xl:block" /> Management <span className="text-primary">Solutions</span> </>),
-    para: "Explore the latest trends in cross-podcasting, focusing on collaboration, innovative formats, and strategies to enhance audience engagement and expand reach.",
+    title: (<> Tailored Online Reputation Management <br className="hidden lg:block" /> <span className="text-primary">Solutions</span> for Every Business Need </>),
+    para: "Identify opportunities to strengthen your brand across all touchpoints, ensuring long-term success with our online reputation management solutions. ",
     cardData: cardData,
     cardBg: reviewCard,
     bgColor: "bg-[#000000] lg:bg-none pb-12 lg:pb-20",

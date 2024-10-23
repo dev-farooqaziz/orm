@@ -11,7 +11,7 @@ const CaseStudy = ({ content }) => {
                 <div className="container">
                     <div className="grid grid-cols-12 items-center">
                         <div className="col-span-12 lg:col-span-7">
-                            <h2 className={`text-[40px] md:text-[50px] tracking-wide leading-tight font-semibold font-poppins ${color} text-center lg:text-left mb-4`}>{title}</h2>
+                            <h2 className={`text-[30px] md:text-[40px] xl:text-[50px] tracking-wide xl:leading-tight font-semibold font-poppins ${color} text-center lg:text-left mb-4`}>{title}</h2>
                             <p className={`text-[16px] tracking-wide leading-loose font-poppins ${color} text-center lg:text-left mb-5 lg:mb-0`}>{para}</p>
                         </div>
                         <div className="col-span-12 lg:col-span-5 flex items-center justify-center lg:justify-end">

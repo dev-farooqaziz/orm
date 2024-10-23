@@ -23,7 +23,7 @@ import workingImg from "media/icons/working.png"
 export default function Home() {
   //=============== Hero ===============
   const heroContent = {
-    title: (<> Capture Attention with <br className="hidden xl:block" /> Times Square Digital <span className="text-primary">Billboard Ads</span> </>),
+    title: (<> Make Waves with <br className="hidden md:block" /> Powerful Times Square <span className="text-primary inline md:block">Digital Billboard Ads</span> </>),
     para: (<>
       <span className="flex flex-wrap md:flex-nowrap justify-center md:justify-start items-center gap-2">
         Rated 4.6/5.0
@@ -37,22 +37,22 @@ export default function Home() {
         <span className="hidden md:block">|</span> Trusted by 15+ Businesses <span className="hidden md:block">|</span> <br className="block md:hidden" /> 135+ happy clients
       </span>
     </>),
-    cta1Txt: "Explore The Platform",
+    cta1Txt: "Book Consultation",
     cta2Txt: "Watch Demo",
     BannerImg: BannerImg,
   };
   //=============== Releases ===============
   const releasesContent = {
-    title: (<> Times Square Advertising <span className="text-primary">Formats</span> </>),
-    para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying",
+    title: (<> Times Square Digital <br className="hidden lg:block" /> Billboard Advertising <span className="text-primary">Formats</span> </>),
+    para: (<> Explore how <i>Times Square digital billboard advertising</i> can elevate your brand and deliver unmatched exposure in one of the world’s busiest commercial hubs. </>),
     cardBg: cardBg,
     cardBgHvr: cardBgHvr,
   };
   //=============== Trust ===============
   const trustContent = {
-    title: (<> Advertise on Billboards <br className="hidden md:block" /> in <span className="text-primary">Times Square</span> </>),
+    title: (<> Unmatched Visibility Through <br className="hidden lg:block" /> New York <span className="text-primary">Billboard Advertising</span> </>),
     paragraphs: [
-      "We leverage our expertise to create compelling news articles and publications that capture your audience's attention. Our team conducts thorough research, ensuring that every piece is well-informed and relevant.",
+      (<> Our team specializes in creating dynamic, attention-grabbing campaigns that resonate with viewers, <br className="hidden lg:block" /> making sure your brand stands out amidst the vibrant energy of Times Square. </>),
     ],
     foldBg: foldBg,
     foldImg: trust,
@@ -71,12 +71,14 @@ export default function Home() {
   };
   //=============== OurReview ===============
   const ourReviewContent = {
-    title: (<> How Times SquareDigital <span className="text-primary">Billboards</span> Can Help </>),
+    bgColor: "bg-white",
+    textColor: "text-black",
+    title: (<> Why Times Square Digital <span className="text-primary">Billboards</span> Are Perfect for Interactive Campaigns </>),
     paragraphs: [
-      (<> <span className="font-semibold">Times Square advertising and its digital billboards are accessible to companies of all sizes.</span> </>),
-      "174 Million People enter the Times Square Bowtie annually.",
-      "Approximately 330,000 pass through Times Square Daily (View Source)",
-      "53% of Residents are considered high-income, educated young professionals who are mobile and progressively early adopters with cutting-edge retail preferences.",
+      (<> <span className="font-semibold">Times Square digital billboards</span> do more than just showcase your brand — they allow for highly interactive and engaging campaigns. </>),
+      "These billboards let you display dynamic, real-time content, from live updates to interactive elements that encourage audience participation.",
+      (<> The flexibility and impact of <span className="font-semibold">digital billboards in Times Square</span> make them the perfect tool for brands that want to be remembered. </>),
+      "The result? A truly immersive experience that captivates the audience and creates a lasting impression.",
     ],
     foldBg: review,
   };
@@ -84,26 +86,26 @@ export default function Home() {
   const cardData = [
     {
       title: "Billboard Advertising",
-      para: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla Sapien Nulla, Finibus Vel Malesuada Sed."
+      para: (<> Reach millions of people daily with high-impact <span className="font-semibold">Times Square digital billboards</span>. Perfect for promoting new products, building brand awareness, and making a lasting impression. </>)
     },
     {
       title: "Interactive Installations",
-      para: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla Sapien Nulla, Finibus Vel Malesuada Sed."
+      para: (<> Engage your audience with immersive <span className="font-semibold">interactive displays</span> that invite participation and create memorable experiences in the heart of Times Square. </>)
     },
     {
       title: "Event Sponsorships",
-      para: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla Sapien Nulla, Finibus Vel Malesuada Sed."
+      para: "Align your brand with exciting events in Times Square to tap into live crowds and generate buzz for your business. A powerful way to connect with target audiences."
     },
     {
       title: "Brand Activations",
-      para: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla Sapien Nulla, Finibus Vel Malesuada Sed."
+      para: "Bring your brand to life with experiential marketing in Times Square. Create direct, in-person interactions that leave a lasting impact on both locals and visitors."
     },
   ];
   // =====================
   const solutionContent = {
     foldBg: foldBg,
     title: (<> Times Square Advertising <span className="text-primary">Solutions</span> </>),
-    para: "Explore the latest trends in cross-podcasting, focusing on collaboration, innovative formats, and strategies to enhance audience engagement and expand reach.",
+    para: (<> Explore the best ways to captivate your audience with innovative <span className="font-semibold">Times Square advertising</span> solutions. From creative displays to strategic event partnerships, we offer multiple formats to maximize your brand’s reach and engagement. </>),
     cardData: cardData,
     cardBg: reviewCard,
     bgColor: "bg-[#000000] lg:bg-none pb-12 lg:pb-20",

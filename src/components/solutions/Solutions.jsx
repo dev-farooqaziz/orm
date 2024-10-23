@@ -13,7 +13,7 @@ const Solutions = ({ content }) => {
                 )}
                 <div className="container">
                     <div className="mb-12">
-                        <h2 className={`text-[35px] md:text-[40px] xl:text-[50px] tracking-wide leading-tight font-semibold font-poppins ${textColor} text-center mb-3 xl:mb-5`}>{title}</h2>
+                        <h2 className={`text-[30px] md:text-[40px] xl:text-[50px] tracking-wide xl:leading-tight font-semibold font-poppins ${textColor} text-center mb-3 xl:mb-5`}>{title}</h2>
                         <p className={`text-[16px] tracking-wide leading-loose font-poppins ${textColor} text-center mb-5 w-full lg:w-10/12 xl:w-8/12 mx-auto`}>{para}</p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5">

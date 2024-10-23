@@ -69,7 +69,6 @@ export default function Home() {
       "Our podcasts are crafted with precision by industry experts, ensuring that your message is clear, engaging, and impactful. With access to an extensive distribution network, we guarantee that your podcast reaches the right audience for maximum exposure and connection.",
       "Additionally, we offer fast turnaround times, expert production services, and a personalized approach, ensuring your brand stands out in today’s dynamic audio landscape.",
     ],
-    subtitle: "What We Offer:",
     publicantPoints: publicantPoints,
     cta1Txt: "Book a Consultation",
     cta2Txt: "Watch Demo",

@@ -11,7 +11,7 @@ const Wikipedia = ({ content }) => {
                 <Image src={foldBg} alt="ORM" fill={true} className="hidden lg:block -z-10 object-cover object-bottom" />
                 <div className="container">
                     <div className="mb-12">
-                        <h2 className="text-[35px] md:text-[40px] xl:text-[50px] tracking-wide leading-tight font-semibold font-poppins text-white text-center mb-3 xl:mb-5">{title}</h2>
+                        <h2 className="text-[30px] md:text-[40px] xl:text-[50px] tracking-wide xl:leading-tight font-semibold font-poppins text-white text-center mb-3 xl:mb-5">{title}</h2>
                         <p className="text-[16px] tracking-wide leading-loose font-poppins text-white text-center mb-5 w-full lg:w-10/12 xl:w-8/12 mx-auto">{para}</p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-5">

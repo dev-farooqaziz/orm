@@ -8,10 +8,10 @@ const What = ({ content }) => {
     const { title, para, cardBg, cardBgHvr, cardsData, ctaTitle, ctaPara, ctaCardBg } = content
     return (
         <>
-            <section className="py-12 lg:py-20 relative before:hidden md:before:block before:absolute before:top-0 before:left-[50%] before:bg-secondary before:w-[3px] before:h-[40px] md:before:h-[50px]">
+            <section className="py-12 lg:py-20 relative before:hidden md:before:block before:absolute before:top-0 before:left-[50%] before:bg-secondary before:w-[3px] before:h-[40px] lg:before:h-[50px]">
                 <div className="container">
                     <div className="w-full lg:w-10/12 xl:w-8/12 mb-12 mx-auto">
-                        <h2 className="text-[35px] md:text-[40px] xl:text-[50px] tracking-wide leading-tight font-semibold font-poppins text-black text-center mb-3">
+                        <h2 className="text-[30px] md:text-[40px] xl:text-[50px] tracking-wide xl:leading-tight font-semibold font-poppins text-black text-center mb-3">
                             {title}
                         </h2>
                         <p className="text-[16px] tracking-wide leading-loose font-poppins text-black text-center">

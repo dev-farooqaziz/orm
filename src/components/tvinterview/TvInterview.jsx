@@ -53,8 +53,8 @@ const TvInterview = () => {
             <Image src={foldBg} alt="ORM" fill={true} className="hidden lg:block -z-10 object-cover object-bottom" />
             <div className="container">
                 <div className="mb-12">
-                    <h2 className="text-[35px] md:text-[40px] xl:text-[50px] tracking-wide leading-tight font-semibold font-poppins text-white text-center mb-3 xl:mb-5">Latest TV <span className="text-primary">Interviews</span></h2>
-                    <p className="text-[16px] tracking-wide leading-loose font-poppins text-white text-center mb-5 w-full lg:w-10/12 xl:w-7/12 mx-auto">Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying</p>
+                    <h2 className="text-[30px] md:text-[40px] xl:text-[50px] tracking-wide xl:leading-tight font-semibold font-poppins text-white text-center mb-3 xl:mb-5">Latest TV <span className="text-primary">Interviews</span></h2>
+                    <p className="text-[16px] tracking-wide leading-loose font-poppins text-white text-center mb-5 w-full lg:w-10/12 xl:w-7/12 mx-auto">Our services connect you with leading TV shows and platforms, providing an opportunity to share your insights, showcase your brand, and engage with a broad audience.</p>
                 </div>
                 <div className="md:w-max mx-auto flex items-center justify-center flex-wrap gap-x-6 lg:gap-x-16 gap-y-6 px-10 mb-8 lg:mb-12 pb-8 border-b border-[#4e4e4e]">
                     {tabsData.map((item, index) => (

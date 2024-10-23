@@ -6,7 +6,7 @@ import { FaCheck } from "react-icons/fa";
 import { CTA } from "@/components";
 
 const Publication = ({ content }) => {
-    const { foldBg, title, paragraphs, subtitle, publicantPoints, cta1Txt, cta2Txt } = content;
+    const { foldBg, title, paragraphs, publicantPoints, cta1Txt, cta2Txt } = content;
     return (
         <>
             <section className="h-full flex items-center py-12 lg:py-20 relative z-10 overflow-hidden">
@@ -15,13 +15,10 @@ const Publication = ({ content }) => {
                     <div className="grid grid-cols-12 items-center xl:gap-10">
                         <div className="col-span-12 lg:col-span-6 hidden xl:block"></div>
                         <div className="col-span-12 xl:col-span-6 xl:ml-10">
-                            <h2 className="text-[40px] md:text-[50px] tracking-wide leading-tight font-semibold font-poppins text-black text-center md:text-left mb-3 xl:mb-5">{title}</h2>
+                            <h2 className="text-[30px] md:text-[40px] xl:text-[50px] tracking-wide xl:leading-tight font-semibold font-poppins text-black text-center md:text-left mb-3 xl:mb-5">{title}</h2>
                             {paragraphs.map((para) => (
                                 <p className="text-[16px] tracking-wide leading-loose font-poppins text-black mb-5">{para}</p>
                             ))}
-                            {subtitle && (
-                                <h5 className="text-[20px] font-semibold leading-loose font-poppins text-black mb-3 mt-5 xl:mt-8">{subtitle}</h5>
-                            )}
                             <div className="grid grid-cols-12 lg:grid-cols-8 xl:grid-cols-12 items-center gap-y-2 mb-5 xl:mb-8">
                                 {publicantPoints.map((item, index) => (
                                     <div className="col-span-12 lg:col-span-6" key={index}>

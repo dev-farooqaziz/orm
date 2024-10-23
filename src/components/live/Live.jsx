@@ -14,7 +14,7 @@ const Live = ({ content }) => {
                 <div className="container">
                     <div className="grid grid-cols-12 items-center gap-y-10 md:gap-10">
                         <div className="col-span-12 lg:col-span-7 xl:col-span-6">
-                            <h2 className="text-[35px] md:text-[40px] xl:text-[50px] tracking-wide leading-tight font-semibold font-poppins text-white text-center md:text-left mb-3 xl:mb-5">{title}</h2>
+                            <h2 className="text-[30px] md:text-[40px] xl:text-[50px] tracking-wide xl:leading-tight font-semibold font-poppins text-white text-center md:text-left mb-3 xl:mb-5">{title}</h2>
                             {paragraphs.map((para, index) => (
                                 <p key={index} className="text-[16px] tracking-wide leading-loose font-poppins text-white mb-5">{para}</p>
                             ))}

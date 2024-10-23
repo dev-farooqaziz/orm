@@ -84,7 +84,7 @@ const Cross = () => {
                 <Image src={foldBg} alt="ORM" fill={true} className="hidden lg:block -z-10 object-cover object-bottom" />
                 <div className="container">
                     <div className="w-full lg:w-10/12 xl:w-7/12 mx-auto">
-                        <h2 className="text-[35px] md:text-[40px] xl:text-[50px] tracking-wide leading-tight font-semibold font-poppins text-white text-center mb-4">Discover the Latest Trends in <span className="text-primary">Cross Podcast</span></h2>
+                        <h2 className="text-[30px] md:text-[40px] xl:text-[50px] tracking-wide xl:leading-tight font-semibold font-poppins text-white text-center mb-4">Discover the Latest Trends in <span className="text-primary">Cross Podcast</span></h2>
                         <p className="text-[16px] tracking-wide leading-loose font-poppins text-white text-center">Explore the latest trends in cross-podcasting, focusing on collaboration, innovative formats, and strategies to enhance audience engagement and expand reach.</p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-y-10 gap-x-0 md:gap-10 mt-8 md:mt-14 xl:mt-20">

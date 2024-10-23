@@ -21,7 +21,7 @@ import workingImg from "media/icons/working.png"
 export default function Home() {
   //=============== Hero ===============
   const heroContent = {
-    title: (<> Drive Results with <br className="hidden xl:block" /> Professional Press <span className="text-primary hidden xl:block">Release Services</span> </>),
+    title: (<> Drive Results with <br className="hidden xl:block" /> Professional Press <span className="text-primary inline md:block">Release Services</span> </>),
     para: (<>
       <span className="flex flex-wrap md:flex-nowrap justify-center md:justify-start items-center gap-2">
         Rated 4.6/5.0
@@ -70,7 +70,6 @@ export default function Home() {
       "Our press releases help you stand out in today's competitive landscape. Crafted by experts, we ensure your message is engaging, impactful, and reaches the right audience through targeted media distribution.",
       "We provide a fast turnaround time and a personalized approach that maximizes your brand's visibility and credibility.",
     ],
-    subtitle: "Key Benefits:",
     publicantPoints: publicantPoints,
     cta1Txt: "Get Started Today",
     cta2Txt: "Book a Consultation",

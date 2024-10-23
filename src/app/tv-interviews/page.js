@@ -19,7 +19,7 @@ import workingImg from "media/icons/working.png"
 export default function Home() {
   //=============== Hero ===============
   const heroContent = {
-    title: (<> Amplify Your Brand <br className="hidden xl:block" /> with Strategic <span className="text-primary xl:block">TV Interviews</span> </>),
+    title: (<> Get Your Message <br className="hidden lg:block" /> on Screen with Custom <span className="text-primary lg:block">TV Interview Services</span> </>),
     para: (<>
       <span className="flex flex-wrap md:flex-nowrap justify-center md:justify-start items-center gap-2">
         Rated 4.6/5.0
@@ -33,14 +33,14 @@ export default function Home() {
         <span className="hidden md:block">|</span> Trusted by 15+ Businesses <span className="hidden md:block">|</span> <br className="block md:hidden" /> 135+ happy clients
       </span>
     </>),
-    cta1Txt: "Explore The Platform",
+    cta1Txt: "Book Consultation",
     cta2Txt: "Watch Demo",
     BannerImg: BannerImg,
   };
   //=============== Releases ===============
   const releasesContent = {
-    title: (<> The Most-Advanced, <br className="hidden xl:block" /> All-In-One <span className="text-primary">Video Interview!</span> </>),
-    para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying",
+    title: (<> The Most Advanced, All-In-One <br className="hidden lg:block" />  <span className="text-primary">TV Interview</span> Recording Services </>),
+    para: (<> Our <span className="font-semibold">TV Interview Recording Services</span> are designed to provide you with professional-grade recordings that capture the essence of your message and elevate your brand. </>),
     cardBg: cardBg,
     cardBgHvr: cardBgHvr,
   };
@@ -53,39 +53,39 @@ export default function Home() {
   ];
   // =====================
   const publicationContent = {
-    title: (<> What Can TV <span className="text-primary">Placement</span> Do For <br /> You? </>),
+    title: (<> What Can TV <span className="text-primary">Placement</span> Do <br className="hidden lg:block" /> For You? </>),
     paragraphs: [
-      "We leverage our expertise to create compelling news articles and publications that capture your audience's attention. Our team conducts thorough research, ensuring that every piece is well-informed and relevant.",
+      (<> Our <span className="font-semibold">TV Placement</span> services are designed to position you as a thought leader in your industry. We ensure that your message reaches your target audience through strategic placement on popular TV programs. </>),
     ],
-        publicantPoints: publicantPoints,
-    cta1Txt: "Get Started Today",
-    cta2Txt: "Book a Consultation",
+    publicantPoints: publicantPoints,
+    cta1Txt: "Book a Consultation",
+    cta2Txt: "Watch Demo",
     foldBg: news,
   };
   //=============== Solutions ===============
   const cardData = [
     {
       title: "Reputation Analysis",
-      para: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla Sapien Nulla, Finibus Vel Malesuada Sed."
+      para: "We help you analyze your brand's reputation to identify strengths and areas for improvement, ensuring better TV interview success."
     },
     {
       title: "Content Creation",
-      para: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla Sapien Nulla, Finibus Vel Malesuada Sed."
+      para: "Our team crafts compelling content that captivates your audience, tailored to meet your brand’s goals and messaging needs effectively."
     },
     {
       title: "Publishing",
-      para: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla Sapien Nulla, Finibus Vel Malesuada Sed."
+      para: "Get your TV interviews published on popular platforms with our expert services, expanding your visibility and audience reach effortlessly."
     },
     {
       title: "Promotion",
-      para: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla Sapien Nulla, Finibus Vel Malesuada Sed."
+      para: "Promote your TV interviews to the right audience, using targeted strategies that maximize engagement, views, and brand exposure rapidly."
     },
   ];
   // =====================
   const solutionContent = {
     foldBg: foldBg,
-    title: (<> TV Interviews <span className="text-primary">Solutions!</span> </>),
-    para: "Explore the latest trends in cross-podcasting, focusing on collaboration, innovative formats, and strategies to enhance audience engagement and expand reach.",
+    title: (<> TV Interview <span className="text-primary">Solutions</span> for <br className="hidden lg:block" /> Enhanced Brand Exposure </>),
+    para: "Our expert-led solutions focus on tailored reputation analysis, compelling content creation, seamless publishing, and impactful promotions, ensuring your TV interviews achieve measurable results. ",
     cardData: cardData,
     cardBg: reviewCard,
     bgColor: "bg-white pb-0",

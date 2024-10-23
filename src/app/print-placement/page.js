@@ -23,7 +23,7 @@ import workingImg from "media/icons/working.png"
 export default function Home() {
   //=============== Hero ===============
   const heroContent = {
-    title: (<> Maximize Your Reach <br className="hidden xl:block" /> with Expert Print <br className="hidden xl:block" /> Placement in <span className="text-primary">Magazines</span> </>),
+    title: (<> Dominate Print Media <br className="hidden md:block" /> with Custom <span className="text-primary">Print <br className="hidden md:block" /> Placement</span> Solutions </>),
     para: (<>
       <span className="flex flex-wrap md:flex-nowrap justify-center md:justify-start items-center gap-2">
         Rated 4.6/5.0
@@ -43,17 +43,17 @@ export default function Home() {
   };
   //=============== Releases ===============
   const releasesContent = {
-    title: (<> 6 Impressive Design Tools <br className="hidden lg:block" /> for <span className="text-primary">Magazines</span> </>),
-    para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying",
+    title: (<> Transform Your Print Ads with <br className="hidden lg:block" /> Innovative <span className="text-primary">Magazine</span> Design Services </>),
+    para: "Discover how top-tier print placement company revolutionize your magazine print ads, ensuring they capture attention and engage your target audience.",
     cardBg: cardBg,
     cardBgHvr: cardBgHvr,
   };
   //=============== Press ===============
   const pressContent = {
-    title: (<> Always- <span className="text-primary">On Print</span> Placement: All Social in One Place </>),
+    title: (<> Integrated  <span className="text-primary">Print Campaigns</span> that Drive Results Across Every Platform </>),
     paragraphs: [
-      "Wikipedia pages are a powerful way to enhance your online presence and showcase your achievements. Whether you're building personal credibility, promoting your brand, or sharing important milestones, we create expertly crafted Wikipedia pages that capture attention.",
-      "Elevate your brand with a high-quality Wikipedia page that boosts credibility and visibility.",
+      "Unlock the full potential of print placement with a strategy and maximize your brand’s exposure with seamless print placement services designed to deliver impactful results. Our tailored print solutions ensure consistent, strategic visibility across all relevant platforms.",
+      "From magazines to targeted publications, we handle it all to ensure your print ads leave a lasting impression.",
     ],
     foldBg: foldBg,
     foldImg: press,
@@ -61,44 +61,44 @@ export default function Home() {
   //=============== Publication ===============
   const publicantPoints = [
     "Thorough Research Process",
-    "Engaging Content Creation",
     "Targeted Audience Reach",
+    "Engaging Content Creation",
     "Timely Delivery Assurance"
   ];
   // =====================
   const publicationContent = {
-    title: (<> Why Choose Our <br className="hidden lg:block" /> Print Placement <span className="text-primary">(Magazine)?</span> </>),
+    title: (<> Why Our <span className="text-primary">Print Placement</span> Solutions Stand Out </>),
     paragraphs: [
-      "We leverage our expertise to create compelling news articles and publications that capture your audience's attention. Our team conducts thorough research, ensuring that every piece is well-informed and relevant.",
+      "Our print placement services are designed to amplify your brand’s presence in leading magazines. With our expert team, you’ll gain access to thoroughly researched ad placements, targeted audience engagement, and visually captivating content creation that ensures maximum visibility.",
     ],
-        publicantPoints: publicantPoints,
-    cta1Txt: "Get Started Today",
-    cta2Txt: "Book a Consultation",
+    publicantPoints: publicantPoints,
+    cta1Txt: "Book a Consultation",
+    cta2Txt: "Watch Demo",
     foldBg: news,
   };
   //=============== Possibilities ===============
   const cardData = [
     {
       title: "Increased Online Visibility",
-      para: "Top Businesses Are Winning Because They Have A Single Source Of Truth For Their Reputation Performance. They Always Know What Consumers Are Saying About Them And Can Always Act On Those Insights.",
+      para: "With strategic print placements, your brand can bridge the gap between offline and online audiences, driving more traffic and engagement.",
       img: imagine1,
     },
     {
       title: "SEO Boost",
-      para: "Top Businesses Are Winning Because They Have A Single Source Of Truth For Their Reputation Performance. They Always Know What Consumers Are Saying About Them And Can Always Act On Those Insights.",
+      para: "Print media placements work hand in hand with digital efforts to elevate your search rankings by creating backlinks from trusted sources.",
       img: imagine2,
     },
     {
       title: "Detailed Storytelling",
-      para: "Top Businesses Are Winning Because They Have A Single Source Of Truth For Their Reputation Performance. They Always Know What Consumers Are Saying About Them And Can Always Act On Those Insights.",
+      para: "Our expertly crafted print content ensures your brand's story is communicated clearly, engaging readers and leaving a lasting impression.",
       img: imagine3,
     },
   ];
   // =====================
   const possibleContent = {
     foldBg: foldBg,
-    title: (<> Imagine The <span className="text-primary">Possibilities</span> </>),
-    para: "We leverage our expertise to create compelling news articles and publications that capture your audience's attention. Our team conducts thorough research, ensuring that every piece is well-informed and relevant.",
+    title: (<> Achieve Maximum Exposure with <br className="hidden lg:block" /> Tailored <span className="text-primary">Print Solutions</span> </>),
+    para: "Our print placement services offer a unique opportunity to enhance your brand’s presence in the most trusted print media. We ensure your message reaches the right audience, increasing visibility and boosting credibility.",
     cardData: cardData,
   };
   //=============== Working ===============

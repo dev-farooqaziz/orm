@@ -44,7 +44,7 @@ import workingImg from "media/icons/working.png"
 export default function Home() {
   //=============== Hero ===============
   const heroContent = {
-    title: (<> Power Up Your Brand Presence with Expert Online Reputation Management <span className="text-primary">Services</span> </>),
+    title: (<> Power Up Your Brand Presence with Expert <span className="text-primary"><br className="hidden md:block" />Online Reputation Management</span> Services </>),
     para: (<>
       <span className="flex flex-wrap md:flex-nowrap justify-center md:justify-start items-center gap-2">
         Rated 4.6/5.0
@@ -175,7 +175,7 @@ export default function Home() {
   ];
   // =====================
   const publicationContent = {
-    title: (<> News / Article <span className="text-primary block">Publication</span> </>),
+    title: (<> News / Article <span className="text-primary inline lg:block">Publication</span> </>),
     paragraphs: [
       "Get your brand featured in leading news outlets and industry-specific publications to build credibility and authority. Our expert team creates compelling, high-quality content that is strategically placed in trusted media sources that enhance your online reputation.",
     ],

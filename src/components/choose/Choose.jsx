@@ -16,7 +16,7 @@ const Choose = () => {
                     <div className="grid grid-cols-12 items-center gap-5">
                         <div className="col-span-12 mb-6">
                             <div className="relative w-full md:w-max mx-auto">
-                                <h2 className="text-[35px] md:text-[40px] xl:text-[50px] tracking-wide leading-tight font-semibold font-poppins text-black text-center mb-3 xl:mb-4">Why Choose ORM Reviews?</h2>
+                                <h2 className="text-[30px] md:text-[40px] xl:text-[50px] tracking-wide xl:leading-tight font-semibold font-poppins text-black text-center mb-3 xl:mb-4">Why Choose ORM Reviews?</h2>
                                 <Image src={befImg} alt="ORM" className="hidden md:block absolute -bottom-2 left-[45%] w-[30%]" />
                             </div>
                             <p className="w-[80%] mx-auto text-[16px] tracking-wide leading-loose font-medium font-montserrat text-black text-center">At ORM Reviews, we know how vital a strong online reputation is for your success.</p>

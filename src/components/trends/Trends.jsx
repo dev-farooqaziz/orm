@@ -68,8 +68,8 @@ const Trends = () => {
             <Image src={foldBg} alt="ORM" fill={true} className="hidden lg:block -z-10 object-cover object-bottom" />
             <div className="container">
                 <div className="mb-12">
-                    <h2 className="text-[35px] md:text-[40px] xl:text-[50px] tracking-wide leading-tight font-semibold font-poppins text-white text-center mb-3 xl:mb-5">Discover the Latest Trends <br className="hidden lg:block" /> <span className="text-primary">Interviewing</span> for TV </h2>
-                    <p className="text-[16px] tracking-wide leading-loose font-poppins text-white text-center mb-5 w-full lg:w-10/12 xl:w-7/12 mx-auto">Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying</p>
+                    <h2 className="text-[30px] md:text-[40px] xl:text-[50px] tracking-wide xl:leading-tight font-semibold font-poppins text-white text-center mb-3 xl:mb-5">Stay Ahead with Cutting-Edge <br className="hidden lg:block" /> <span className="text-primary">TV Interviews</span> Tailored for Your Industry </h2>
+                    <p className="text-[16px] tracking-wide leading-loose font-poppins text-white text-center mb-5 w-full lg:w-10/12 xl:w-7/12 mx-auto">Our TV interview services are designed to help you amplify your brand’s message while capturing the attention of a wide audience.</p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-y-10 gap-x-0 md:gap-10 mt-8 md:mt-16">
                     {trendsData.map((item, index) => (
