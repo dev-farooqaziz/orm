@@ -19,10 +19,10 @@ import workingImg from "media/icons/working.png"
 export default function Home() {
   //=============== Hero ===============
   const heroContent = {
-    title: (<> Engage Your Audience <br className="hidden xl:block" /> with Compelling, <br className="hidden xl:block" /> Professional <span className="text-primary">Podcasts</span> </>),
+    title: (<> Drive Audience <br className="hidden xl:block" /> Engagement with Professional <span className="text-primary">Podcast Services</span> </>),
     para: (<>
-      <span className="flex flex-col md:flex-row items-center gap-2">
-        4.6/5.0
+      <span className="flex flex-wrap md:flex-nowrap justify-center md:justify-start items-center gap-2">
+        Rated 4.6/5.0
         <span className="flex gap-1 mb-1">
           <FaStar className="text-[15px] md:text-[13px] text-[#FFA909]" />
           <FaStar className="text-[15px] md:text-[13px] text-[#FFA909]" />
@@ -30,24 +30,26 @@ export default function Home() {
           <FaStar className="text-[15px] md:text-[13px] text-[#FFA909]" />
           <FaStar className="text-[15px] md:text-[13px] text-[#FFA909]" />
         </span>
-        15+ Businesses, 35+ Happy clients.
+        <span className="hidden md:block">|</span> Trusted by 15+ Businesses <span className="hidden md:block">|</span> <br className="block md:hidden" /> 135+ happy clients
       </span>
     </>),
+    cta1Txt: "Book Consultation",
+    cta2Txt: "Watch Demo",
     BannerImg: BannerImg,
   };
   //=============== Releases ===============
   const releasesContent = {
     title: (<> Explore Latest <span className="text-primary">Podcast</span> </>),
-    para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying",
+    para: "Enhance your brand’s storytelling with our podcast recording services. We offer a full suite of solutions to help you create engaging, high-quality podcasts. From sound engineering to post-production, our experts ensure every episode sounds professional.",
     cardBg: cardBg,
     cardBgHvr: cardBgHvr,
   };
   //=============== Press ===============
   const pressContent = {
-    title: (<> Craft Your Story with <span className="text-primary">Impactful Podcasts</span> </>),
+    title: (<> Share Your Voice with High-Quality <span className="text-primary">Podcast Recording Services</span> </>),
     paragraphs: [
-      "Podcasts are an innovative way to connect with your audience and share your message. Whether you're discussing industry trends, interviewing experts, or telling compelling stories, we create engaging podcast content that resonates. Our team handles everything from scripting to editing, ensuring a polished final product that captivates listeners.",
-      "Elevate your brand with high-quality podcasts that foster engagement and build community. With our expertise, your voice will reach a wider audience, creating lasting connections and driving meaningful conversations.",
+      (<> Ready to launch your podcast and connect with your audience on a deeper level? Our <span className="font-semibold">podcast recording services</span> provide everything you need to create polished, professional episodes that stand out. Whether you’re diving into industry insights or sharing personal stories, we handle the recording, editing, and distribution, ensuring your podcast shines. </>),
+      "With expert audio production and tailored services, your voice will reach more listeners and foster genuine engagement.",
     ],
     foldBg: foldBg,
     foldImg: press,
@@ -56,36 +58,39 @@ export default function Home() {
   //=============== Publication ===============
   const publicantPoints = [
     "Engaging Audio Content",
-    "Targeted Audience Reach",
     "Expert Production Services",
-    "Quick Turnaround Time"
+    "Targeted Audience Reach",
+    "Quick Turnaround"
   ];
   // =====================
   const publicationContent = {
-    title: (<> Why Choose Our <span className="text-primary block">Podcasts?</span> </>),
+    title: (<> Why Choose Our <span className="text-primary block">Podcast Services?</span> </>),
     paragraphs: [
-      "Our podcasts are crafted by industry experts, ensuring your message is engaging, impactful, and relevant. With our extensive network, we help you reach the right audience for maximum visibility and connection.",
-      "Additionally, our quick turnaround and personalized approach guarantee that your brand stands out in today’s competitive audio landscape.",
+      "Our podcasts are crafted with precision by industry experts, ensuring that your message is clear, engaging, and impactful. With access to an extensive distribution network, we guarantee that your podcast reaches the right audience for maximum exposure and connection.",
+      "Additionally, we offer fast turnaround times, expert production services, and a personalized approach, ensuring your brand stands out in today’s dynamic audio landscape.",
     ],
+    subtitle: "What We Offer:",
     publicantPoints: publicantPoints,
+    cta1Txt: "Book a Consultation",
+    cta2Txt: "Watch Demo",
     foldBg: news,
   };
   //=============== Working ===============
   const workingContent = {
-    title: (<> Just By <span className="text-primary">Working With US.</span> </>),
-    para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying",
+    title: (<> Why Partner <span className="text-primary">With Us?</span> </>),
+    para: "We help businesses like yours harness the power of positive reviews, customer insights, and market trends to enhance your reputation management and drive growth.",
     workingImg: workingImg,
   };
   //=============== Expert ===============
   const expertContent = {
-    title: "Boost Your Reputation – Contact Our Experts Today",
-    para: "Top Businesses Are Winning Because They Have A Single Source Of Truth For Their Reputation Performance. They Always Know What Consumers Are Saying About Them And Can Always Act On Those Insights.",
+    title: "Contact Our Experts Today and Build A Strong Online Brand Reputation",
+    para: "Our expert team can help you leverage positive reviews across the most influential platforms, building credibility and driving growth.",
     foldBg: foldBg,
   };
   //=============== OurClients ===============
   const ourClientsContent = {
-    title: (<> <span className="text-primary">Our Client's</span> Review </>),
-    para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying",
+    title: (<> <span className="text-primary">Our Client's</span> Success Stories </>),
+    para: "At the heart of every great business are satisfied customers. See how our reputation management services have transformed businesses and built trust in their markets.",
   };
 
   return (

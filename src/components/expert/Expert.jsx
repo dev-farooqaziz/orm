@@ -20,9 +20,9 @@ const Expert = ({ content }) => {
             <section className="bg-[#000000] lg:bg-none py-12 lg:py-20 relative z-10 overflow-hidden">
                 <Image src={foldBg} alt="ORM" fill={true} className="hidden lg:block -z-10 object-cover object-bottom" />
                 <div className="container">
-                    <div className="mb-12 w-full lg:w-10/12 xl:w-full mx-auto">
+                    <div className="mb-12 w-full lg:w-10/12 xl:w-8/12 mx-auto">
                         <h2 className="text-[36px] tracking-wide leading-tight font-semibold font-poppins text-white text-center mb-4">{title}</h2>
-                        <p className="text-[16px] tracking-wide leading-loose font-poppins text-white text-center w-full xl:w-8/12 mx-auto">{para}</p>
+                        <p className="text-[16px] tracking-wide leading-loose font-poppins text-white text-center">{para}</p>
                     </div>
                     <div className="flex justify-around flex-col md:flex-row lg:flex-col">
                         <div className="pb-10 md:pb-0 lg:pb-10 xl:px-20 border-b md:border-b-0 lg:border-b border-[#707070]">
@@ -90,9 +90,9 @@ const Expert = ({ content }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="inline-block md:flex items-center gap-4 bg-[#323232]/40 backdrop-blur-lg rounded-[25px] overflow-hidden px-2 lg:px-4 py-2 w-full lg:w-max mx-auto mt-10 lg:mt-14 text-center">
-                        <h5 className="inline md:block text-[16px] md:text-[14px] lg:text-[18px] tracking-wide font-montserrat text-white text-center mb-0 mr-2 md:mr-0">Discover The Power Of Our Reviews Today. Enjoy Our Service First, Then Make Your Payment</h5>
-                        <Image src={wallet} alt="ORM" className="inline md:block w-[20px] lg:w-[30px] text-center" />
+                    <div className="inline-block xl:flex items-center gap-4 bg-[#323232]/40 backdrop-blur-lg rounded-[25px] overflow-hidden px-4 lg:px-10 xl:px-4 py-2 w-full xl:w-max mx-auto mt-10 lg:mt-14 text-center">
+                        <h5 className="inline xl:block text-[16px] md:text-[14px] lg:text-[18px] tracking-wide font-montserrat text-white text-center mb-0 mr-2 xl:mr-0">Experience the power of positive reviews. With our service, you only pay after you see the results!</h5>
+                        <Image src={wallet} alt="ORM" className="inline xl:block w-[20px] lg:w-[30px] text-center" />
                     </div>
                     <div className="w-max mx-auto mt-8 lg:mt-10">
                         <CTA

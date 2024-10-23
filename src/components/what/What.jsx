@@ -28,7 +28,7 @@ const What = ({ content }) => {
                                         <h3 className="text-[20px] tracking-wide font-semibold font-poppins text-black group-hover:text-white transition-all duration-700">
                                             {item.title}
                                         </h3>
-                                        <p className="text-[16px] tracking-wide font-montserrat font-medium line-clamp-3 text-black group-hover:text-white transition-all duration-700 my-6">
+                                        <p className="text-[16px] tracking-wide font-montserrat font-medium text-black group-hover:text-white transition-all duration-700 my-6">
                                             {item.description}
                                         </p>
                                         <Link href="#" className="text-[16px] tracking-wide font-montserrat font-medium text-black group-hover:text-white transition-all duration-700">
@@ -50,7 +50,7 @@ const What = ({ content }) => {
                                     </p>
                                     <div className="w-max">
                                         <CTA
-                                            text="Explore The Platform"
+                                            text="Call Us Now"
                                             href="tel:123456789"
                                         />
                                     </div>

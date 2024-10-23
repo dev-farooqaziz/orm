@@ -3,7 +3,7 @@ import Image from "next/image";
 //========== Import Components
 import { CTA } from "@/components";
 
-const Wikitia = ({ content }) => {
+const Wikipedia = ({ content }) => {
     const { foldBg, title, para, cardData, cardBg } = content;
     return (
         <>
@@ -40,4 +40,4 @@ const Wikitia = ({ content }) => {
         </>
     );
 }
-export default Wikitia;
+export default Wikipedia;

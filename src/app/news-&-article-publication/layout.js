@@ -1,16 +1,16 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Award Winning Online Reputation Management Services!",
-  description: "Award Winning Online Reputation Management Services!.",
+  title: "News and Article Publication - Online Reputation Management",
+  description: "News and Article Publication",
   //===== OG Tags =====
   openGraph: {
-      title: 'Award Winning Online Reputation Management Services!',
-      description: 'Award Winning Online Reputation Management Services!.',
-      url: '/news-&-article-publication',
-      siteName: 'ORM',
-      locale: 'en_US',
-      type: 'website',
+    title: 'News and Article Publication - Online Reputation Management',
+    description: 'News and Article Publication',
+    url: '/news-&-article-publication',
+   siteName: 'Online Reputation Management',
+    locale: 'en_US',
+    type: 'website',
   },
   //===== Canonical =====
   alternates: { canonical: '/news-&-article-publication' },

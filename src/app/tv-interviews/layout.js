@@ -8,7 +8,7 @@ export const metadata = {
     title: 'Award Winning Online Reputation Management Services!',
     description: 'Award Winning Online Reputation Management Services!.',
     url: '/tv-interviews',
-    siteName: 'ORM',
+   siteName: 'Online Reputation Management',
     locale: 'en_US',
     type: 'website',
   },

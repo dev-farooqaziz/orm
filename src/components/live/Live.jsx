@@ -13,7 +13,7 @@ const Live = ({ content }) => {
                 <Image src={foldBg} alt="ORM" fill={true} className="hidden lg:block -z-10 object-cover object-bottom" />
                 <div className="container">
                     <div className="grid grid-cols-12 items-center gap-y-10 md:gap-10">
-                        <div className="col-span-12 lg:col-span-6">
+                        <div className="col-span-12 lg:col-span-7 xl:col-span-6">
                             <h2 className="text-[35px] md:text-[40px] xl:text-[50px] tracking-wide leading-tight font-semibold font-poppins text-white text-center md:text-left mb-3 xl:mb-5">{title}</h2>
                             {paragraphs.map((para, index) => (
                                 <p key={index} className="text-[16px] tracking-wide leading-loose font-poppins text-white mb-5">{para}</p>
@@ -23,7 +23,7 @@ const Live = ({ content }) => {
                                     <div className="col-span-12 lg:col-span-6" key={index}>
                                         <div className="flex items-center gap-2">
                                             <FaCheck className="text-[20px] text-white bg-primary rounded-full p-1" />
-                                            <span className="text-[16px] tracking-wide leading-loose font-montserrat text-white">
+                                            <span className="text-[16px] lg:text-[14px] xl:text-[15px] tracking-wide leading-loose font-montserrat text-white">
                                                 {item}
                                             </span>
                                         </div>
@@ -40,7 +40,7 @@ const Live = ({ content }) => {
                                 />
                             </div>
                         </div>
-                        <div className="col-span-12 lg:col-span-6">
+                        <div className="col-span-12 lg:col-span-5 xl:col-span-6">
                             <Image src={foldImg} alt="ORM" />
                         </div>
                     </div>

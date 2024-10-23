@@ -25,8 +25,8 @@ export default function Home() {
   const heroContent = {
     title: (<> Maximize Your Reach <br className="hidden xl:block" /> with Expert Print <br className="hidden xl:block" /> Placement in <span className="text-primary">Magazines</span> </>),
     para: (<>
-      <span className="flex flex-col md:flex-row items-center gap-2">
-        4.6/5.0
+      <span className="flex flex-wrap md:flex-nowrap justify-center md:justify-start items-center gap-2">
+        Rated 4.6/5.0
         <span className="flex gap-1 mb-1">
           <FaStar className="text-[15px] md:text-[13px] text-[#FFA909]" />
           <FaStar className="text-[15px] md:text-[13px] text-[#FFA909]" />
@@ -34,9 +34,11 @@ export default function Home() {
           <FaStar className="text-[15px] md:text-[13px] text-[#FFA909]" />
           <FaStar className="text-[15px] md:text-[13px] text-[#FFA909]" />
         </span>
-        15+ Businesses, 35+ Happy clients.
+        <span className="hidden md:block">|</span> Trusted by 15+ Businesses <span className="hidden md:block">|</span> <br className="block md:hidden" /> 135+ happy clients
       </span>
     </>),
+    cta1Txt: "Explore The Platform",
+    cta2Txt: "Watch Demo",
     BannerImg: BannerImg,
   };
   //=============== Releases ===============
@@ -50,8 +52,8 @@ export default function Home() {
   const pressContent = {
     title: (<> Always- <span className="text-primary">On Print</span> Placement: All Social in One Place </>),
     paragraphs: [
-      "Wikitia pages are a powerful way to enhance your online presence and showcase your achievements. Whether you're building personal credibility, promoting your brand, or sharing important milestones, we create expertly crafted Wikitia pages that capture attention.",
-      "Elevate your brand with a high-quality Wikitia page that boosts credibility and visibility.",
+      "Wikipedia pages are a powerful way to enhance your online presence and showcase your achievements. Whether you're building personal credibility, promoting your brand, or sharing important milestones, we create expertly crafted Wikipedia pages that capture attention.",
+      "Elevate your brand with a high-quality Wikipedia page that boosts credibility and visibility.",
     ],
     foldBg: foldBg,
     foldImg: press,
@@ -69,7 +71,9 @@ export default function Home() {
     paragraphs: [
       "We leverage our expertise to create compelling news articles and publications that capture your audience's attention. Our team conducts thorough research, ensuring that every piece is well-informed and relevant.",
     ],
-    publicantPoints: publicantPoints,
+        publicantPoints: publicantPoints,
+    cta1Txt: "Get Started Today",
+    cta2Txt: "Book a Consultation",
     foldBg: news,
   };
   //=============== Possibilities ===============
@@ -99,20 +103,20 @@ export default function Home() {
   };
   //=============== Working ===============
   const workingContent = {
-    title: (<> Just By <span className="text-primary">Working With US.</span> </>),
-    para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying",
+    title: (<> Why Partner <span className="text-primary">With Us?</span> </>),
+    para: "We help businesses like yours harness the power of positive reviews, customer insights, and market trends to enhance your reputation management and drive growth.",
     workingImg: workingImg,
   };
   //=============== Expert ===============
   const expertContent = {
-    title: "Boost Your Reputation – Contact Our Experts Today",
-    para: "Top Businesses Are Winning Because They Have A Single Source Of Truth For Their Reputation Performance. They Always Know What Consumers Are Saying About Them And Can Always Act On Those Insights.",
+    title: "Contact Our Experts Today and Build A Strong Online Brand Reputation",
+    para: "Our expert team can help you leverage positive reviews across the most influential platforms, building credibility and driving growth.",
     foldBg: foldBg,
   };
   //=============== OurClients ===============
   const ourClientsContent = {
-    title: (<> <span className="text-primary">Our Client's</span> Review </>),
-    para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying",
+    title: (<> <span className="text-primary">Our Client's</span> Success Stories </>),
+    para: "At the heart of every great business are satisfied customers. See how our reputation management services have transformed businesses and built trust in their markets.",
   };
 
   return (

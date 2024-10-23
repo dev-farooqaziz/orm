@@ -20,14 +20,14 @@ import "./globals.css";
 export const metadata = {
   metadataBase: new URL('https://orm-new.vercel.app/'),
   //===== Meta Tags =====
-  title: "Award Winning Online Reputation Management Services!",
-  description: "Award Winning Online Reputation Management Services!",
+  title: "Top Online Reputation Management Company – Boost Your Brand Trust",
+  description: "Enhance your business’s online presence with a leading online reputation management company. Build trust, and improve reviews with our expert solutions.",
   //===== OG Tags =====
   openGraph: {
-    title: "Award Winning Online Reputation Management Services!",
-    description: "Award Winning Online Reputation Management Services!",
+    title: "Top Online Reputation Management Company – Boost Your Brand Trust",
+    description: "Enhance your business’s online presence with a leading online reputation management company. Build trust, and improve reviews with our expert solutions.",
     url: '/',
-    siteName: 'ORM',
+   siteName: 'Online Reputation Management',
     locale: 'en_US',
     type: 'website',
   },

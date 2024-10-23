@@ -7,7 +7,7 @@ const Interviews = ({ content }) => {
     const { foldBg, title, para, foldImg } = content;
     return (
         <>
-            <section className="bg-[#000000] lg:bg-none pt-12 lg:pt-20 lg:py-0 relative z-10 overflow-hidden">
+            <section className="bg-[#000000] lg:bg-none pt-12 lg:py-0 relative z-10 overflow-hidden">
                 <Image src={foldBg} alt="ORM" fill={true} className="hidden lg:block -z-10 object-cover object-bottom" />
                 <div className="container">
                     <div className="grid grid-cols-12 items-center gap-y-10 md:gap-10">

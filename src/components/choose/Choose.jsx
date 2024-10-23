@@ -19,17 +19,20 @@ const Choose = () => {
                                 <h2 className="text-[35px] md:text-[40px] xl:text-[50px] tracking-wide leading-tight font-semibold font-poppins text-black text-center mb-3 xl:mb-4">Why Choose ORM Reviews?</h2>
                                 <Image src={befImg} alt="ORM" className="hidden md:block absolute -bottom-2 left-[45%] w-[30%]" />
                             </div>
-                            <p className="w-[80%] mx-auto text-[16px] tracking-wide leading-loose font-medium font-montserrat text-black text-center">At Gorilla Reviews, We Understand The Importance Of A Stellar Online Reputation.</p>
+                            <p className="w-[80%] mx-auto text-[16px] tracking-wide leading-loose font-medium font-montserrat text-black text-center">At ORM Reviews, we know how vital a strong online reputation is for your success.</p>
                         </div>
                         <div className="col-span-12 lg:col-span-6 xl:col-span-4">
                             <div className="relative">
                                 <Image src={ormCard1} alt="ORM" />
-                                <div className="flex flex-col items-center justify-center gap-3 pb-[40px] absolute top-0 left-[-5%] md:left-[8%] lg:left-[-5%] h-full">
-                                    <h3 className="text-[60px] leading-tight tracking-wide font-semibold font-poppins text-white">
+                                <div className="flex flex-col items-center justify-center gap-3 pt-5 pb-[40px] absolute top-0 left-[-5%] lg:left-[-5%] h-full">
+                                    <h3 className="text-[40px] leading-tight tracking-wide font-semibold font-poppins text-white text-center">
                                         75%
+                                        <span className="block text-[20px] tracking-wide font-montserrat font-medium text-center text-white">
+                                            Verified Reviews
+                                        </span>
                                     </h3>
-                                    <p className="w-[80%] mx-auto text-[16px] tracking-wide leading-normal lg:leading-tight font-montserrat font-medium text-center text-white">
-                                        Our Reviews Are Genuine, Reliable, And Written By Real Customers.
+                                    <p className="w-[85%] md:w-[80%] mx-auto text-[16px] tracking-wide leading-normal lg:leading-tight font-montserrat font-medium text-center text-white">
+                                        Our reviews are real, reliable, and written by genuine customers, ensuring you get an accurate representation of your brand’s reputation.
                                     </p>
                                 </div>
                             </div>
@@ -46,7 +49,7 @@ const Choose = () => {
                                         </span>
                                     </h3>
                                     <p className="w-[80%] mx-auto text-[16px] tracking-wide leading-normal lg:leading-tight font-montserrat font-medium text-center text-black">
-                                        Our Dedicated Support Team Is Available Around The Clock To Assist You, Ensuring You Get The Most Out Of Our Services.
+                                        Our dedicated team is available around the clock to assist with your ORM needs, making sure you maximize the potential of our services.
                                     </p>
                                 </div>
                             </div>
@@ -59,11 +62,11 @@ const Choose = () => {
                                     <h3 className="text-[40px] leading-tight tracking-wide font-semibold font-poppins text-white">
                                         Verified
                                         <span className="block text-[20px] tracking-wide font-montserrat font-medium text-center text-white">
-                                            Reviews
+                                            for Trust
                                         </span>
                                     </h3>
                                     <p className="w-[80%] mx-auto text-[16px] tracking-wide leading-normal lg:leading-tight font-montserrat text-center text-white">
-                                        Authenticity Matters. With Gorilla Reviews, You Can Be Confident That All Our Reviews Come From Verified Customers, Ensuring Credibility And Trust.
+                                        Every review is carefully verified to ensure credibility and trustworthiness, so you can confidently rely on the feedback provided.
                                     </p>
                                     <Image src={verified} alt="ORM" className="w-[25%] mt-4" />
                                 </div>

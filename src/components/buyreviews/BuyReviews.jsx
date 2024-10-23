@@ -18,14 +18,14 @@ const BuyReviews = ({ content }) => {
                             <div key={index} className="col-span-12 md:col-span-6 lg:col-span-4 h-full">
                                 <div className="h-full relative z-10 overflow-hidden rounded-[10px] group">
                                     <Image src={cardBg} alt="ORM" fill={true} className="-z-10 object-cover object-bottom opacity-100" />
-                                    <div className="flex flex-col gap-5 px-8 py-10 cursor-default">
+                                    <div className="flex flex-col gap-5 px-4 xl:px-8 py-10 cursor-default">
                                         <div className="w-[25%]">
                                             <Image src={item.icon} alt="ORM" />
                                         </div>
                                         <h3 className="text-[24px] tracking-wide font-semibold font-poppins text-white">
                                             {item.title}
                                         </h3>
-                                        <p className="text-[16px] tracking-wide font-montserrat line-clamp-3 text-white">
+                                        <p className="text-[16px] tracking-wide font-montserrat text-white">
                                             {item.description}
                                         </p>
                                         <div className="w-max">

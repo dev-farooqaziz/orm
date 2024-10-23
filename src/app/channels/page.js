@@ -13,8 +13,8 @@ export default function Home() {
   const heroContent = {
     title: (<> Award Winning Online Reputation Management <span className="text-primary">Services!</span> </>),
     para: (<>
-      <span className="flex flex-col md:flex-row items-center gap-2">
-        4.6/5.0
+      <span className="flex flex-wrap md:flex-nowrap justify-center md:justify-start items-center gap-2">
+        Rated 4.6/5.0
         <span className="flex gap-1 mb-1">
           <FaStar className="text-[15px] md:text-[13px] text-[#FFA909]" />
           <FaStar className="text-[15px] md:text-[13px] text-[#FFA909]" />
@@ -22,9 +22,11 @@ export default function Home() {
           <FaStar className="text-[15px] md:text-[13px] text-[#FFA909]" />
           <FaStar className="text-[15px] md:text-[13px] text-[#FFA909]" />
         </span>
-        15+ Businesses, 35+ Happy clients.
+        <span className="hidden md:block">|</span> Trusted by 15+ Businesses <span className="hidden md:block">|</span> <br className="block md:hidden" /> 135+ happy clients
       </span>
     </>),
+    cta1Txt: "Explore The Platform",
+    cta2Txt: "Watch Demo",
     BannerImg: BannerImg,
   };
   //=============== Releases ===============

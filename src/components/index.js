@@ -25,7 +25,7 @@ const AudioPress = dynamic(() => import('./audiopress/AudioPress'))
 const OurAudios = dynamic(() => import('./ouraudios/OurAudios'))
 const Cross = dynamic(() => import('./cross/Cross'))
 const Trust = dynamic(() => import('./trust/Trust'))
-const Wikitia = dynamic(() => import('./wikitia/Wikitia'))
+const Wikipedia = dynamic(() => import('./wikipedia/Wikipedia'))
 const Possibilities = dynamic(() => import('./possibilities/Possibilities'))
 const Solutions = dynamic(() => import('./solutions/Solutions'))
 const Advertising = dynamic(() => import('./advertising/Advertising'))
@@ -60,7 +60,7 @@ export {
     OurAudios,
     Cross,
     Trust,
-    Wikitia,
+    Wikipedia,
     Possibilities,
     Solutions,
     Advertising,

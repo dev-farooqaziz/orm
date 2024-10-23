@@ -6,11 +6,11 @@ import { FaCheck } from "react-icons/fa";
 import { CTA } from "@/components";
 
 const Publication = ({ content }) => {
-    const { foldBg, title, paragraphs, publicantPoints } = content;
+    const { foldBg, title, paragraphs, subtitle, publicantPoints, cta1Txt, cta2Txt } = content;
     return (
         <>
-            <section className="h-full xl:h-screen flex items-center py-12 lg:py-20 relative z-10 overflow-hidden">
-                <Image src={foldBg} alt="ORM" fill={true} className="hidden xl:block -z-10 object-cover object-left" />
+            <section className="h-full flex items-center py-12 lg:py-20 relative z-10 overflow-hidden">
+                <Image src={foldBg} alt="ORM" fill={true} className="hidden xl:block -z-10 object-fill object-left" />
                 <div className="container">
                     <div className="grid grid-cols-12 items-center xl:gap-10">
                         <div className="col-span-12 lg:col-span-6 hidden xl:block"></div>
@@ -19,7 +19,10 @@ const Publication = ({ content }) => {
                             {paragraphs.map((para) => (
                                 <p className="text-[16px] tracking-wide leading-loose font-poppins text-black mb-5">{para}</p>
                             ))}
-                            <div className="grid grid-cols-12 items-center gap-y-2 my-5 xl:my-8">
+                            {subtitle && (
+                                <h5 className="text-[20px] font-semibold leading-loose font-poppins text-black mb-3 mt-5 xl:mt-8">{subtitle}</h5>
+                            )}
+                            <div className="grid grid-cols-12 lg:grid-cols-8 xl:grid-cols-12 items-center gap-y-2 mb-5 xl:mb-8">
                                 {publicantPoints.map((item, index) => (
                                     <div className="col-span-12 lg:col-span-6" key={index}>
                                         <div className="flex items-center gap-2">
@@ -33,11 +36,11 @@ const Publication = ({ content }) => {
                             </div>
                             <div className="flex items-center gap-6 md:gap-10">
                                 <CTA
-                                    text="Book a Consultation"
+                                    text={cta1Txt}
                                     href="tel:123456789"
                                 />
                                 <CTA
-                                    text="Watch Demo"
+                                    text={cta2Txt}
                                 />
                             </div>
                         </div>

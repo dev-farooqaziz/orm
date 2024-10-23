@@ -44,10 +44,10 @@ import workingImg from "media/icons/working.png"
 export default function Home() {
   //=============== Hero ===============
   const heroContent = {
-    title: (<> Award Winning Online Reputation Management <span className="text-primary">Services!</span> </>),
+    title: (<> Power Up Your Brand Presence with Expert Online Reputation Management <span className="text-primary">Services</span> </>),
     para: (<>
-      <span className="flex flex-col md:flex-row items-center gap-2">
-        4.6/5.0
+      <span className="flex flex-wrap md:flex-nowrap justify-center md:justify-start items-center gap-2">
+        Rated 4.6/5.0
         <span className="flex gap-1 mb-1">
           <FaStar className="text-[15px] md:text-[13px] text-[#FFA909]" />
           <FaStar className="text-[15px] md:text-[13px] text-[#FFA909]" />
@@ -55,63 +55,65 @@ export default function Home() {
           <FaStar className="text-[15px] md:text-[13px] text-[#FFA909]" />
           <FaStar className="text-[15px] md:text-[13px] text-[#FFA909]" />
         </span>
-        15+ Businesses, 35+ Happy clients.
+        <span className="hidden md:block">|</span> Trusted by 15+ Businesses <span className="hidden md:block">|</span> <br className="block md:hidden" /> 135+ happy clients
       </span>
     </>),
+    cta1Txt: "Explore The Platform",
+    cta2Txt: "Watch Demo",
     BannerImg: BannerImg,
   };
   //=============== What ===============
   const cardsData = [
     {
       title: "Online Reputation Audit",
-      description: "Analyze your online presence to identify strengths and weaknesses for improvement strategies.",
+      description: "Analyze your brand to identify strengths, weaknesses, and areas for improvement.",
     },
     {
       title: "Positive Search Results",
-      description: "Enhance your online visibility and improve search outcomes with effective strategies and practices.",
+      description: "Improve your online visibility by optimizing search engine results for your brand.",
     },
     {
       title: "Press Releases",
-      description: "Craft engaging press releases that communicate key messages and capture the audience’s attention effectively.",
+      description: "Craft professional press releases that boost your brand’s visibility and engage your target audience.",
     },
     {
       title: "Review Management",
-      description: "Build trust and maintain a positive online image through effective review management strategies and techniques.",
+      description: "Build credibility by generating positive reviews and addressing negative feedback swiftly.",
     },
     {
       title: "Podcasts",
-      description: "Create compelling podcast content that resonates with audiences and showcases your expertise and insights.",
+      description: "Create engaging podcasts that showcase your expertise and expand your brand’s reach.",
     },
     {
-      title: "News / Article Publication",
-      description: "Secure placements in articles that highlight your brand and promote your key messages effectively.",
+      title: "News / Article Publications",
+      description: "Get featured in top publications to improve your brand’s authority and credibility.",
     },
     {
-      title: "Wikitia Page Creation",
-      description: "Establish your authority and enhance your online credibility with a well-crafted Wikitia page.",
+      title: "Wikipedia Page Creation",
+      description: "Establish online credibility with a well-crafted Wikipedia page for your business.",
     },
     {
       title: "Print Placement (Magazine)",
-      description: "Achieve print placements in magazines to reach specific audiences and amplify your brand awareness.",
+      description: "Gain offline exposure with strategic magazine placements to enhance brand visibility.",
     },
     {
       title: "Google Knowledge Panel",
-      description: "Optimize your online profile to feature prominently in Google’s Knowledge Panel for increased visibility.",
+      description: "Optimize your business for Google Knowledge Panel for increased search visibility.",
     },
     {
       title: "TV Interviews",
-      description: "Participate in TV interviews to share your insights and elevate your brand’s public profile effectively.",
+      description: "Showcase your brand on television through curated interviews that reach a broad audience.",
     },
   ];
   // =====================
   const whatContent = {
     title: (<> <span className="text-primary">What We</span> Do </>),
-    para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying",
+    para: "Top businesses succeed by leveraging expert online reputation management. Here’s how we elevate your digital presence and safeguard your brand:",
     cardBg: cardBg,
     cardBgHvr: cardBgHvr,
     cardsData: cardsData,
-    ctaTitle: "Estimate Your Project’s Cost Now!",
-    ctaPara: "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has...",
+    ctaTitle: "Take Charge of Your Reputation Today!",
+    ctaPara: "Discover how our tailored solutions can enhance your online presence and drive success. Get a free estimate for your project now!",
     ctaCardBg: ctaCardBg,
   };
   //=============== Podcast ===============
@@ -167,31 +169,33 @@ export default function Home() {
   //=============== Publication ===============
   const publicantPoints = [
     "Inspection and Assessment",
-    "Continued Execution!",
-    "Coherence Verified!",
+    "Continued Execution",
+    "Coherence Verified",
     "Delivery"
   ];
   // =====================
   const publicationContent = {
     title: (<> News / Article <span className="text-primary block">Publication</span> </>),
     paragraphs: [
-      "Promote your book through a team of dedicated experts who understand  your physical, emotional, and monetary investment into the project and  are ready, willing, and able to take your book marketing worldwide.",
+      "Get your brand featured in leading news outlets and industry-specific publications to build credibility and authority. Our expert team creates compelling, high-quality content that is strategically placed in trusted media sources that enhance your online reputation.",
     ],
     publicantPoints: publicantPoints,
+    cta1Txt: "Book a Consultation",
+    cta2Txt: "Watch Demo",
     foldBg: news,
   };
   //=============== Live ===============
   const livePoints = [
-    "Segments Chat",
-    "Breakout Rooms",
-    "Screen Sharing",
-    "Opinion Polls"
+    "On-Demand Expertise",
+    "Collaborative Problem-Solving",
+    "Audience-Driven Content",
+    "Tailored Advice"
   ];
   // =====================
   const liveContent = {
     title: "Live Session",
     paragraphs: [
-      "Insightful conversations, expert interviews, and engaging stories that delve into [topic/industry/interest]. Whether you’re looking for inspiration, the latest trends, or just a fresh perspective, our episodes offer something for everyone. Join us each week for a new episode that will keep you informed and entertained.",
+      "Step into a world of dynamic, live discussions tailored to the needs of modern businesses. Our live sessions connect you with top industry experts, offering interactive experiences where you can ask questions, share ideas, and gain fresh perspectives.",
     ],
     livePoints: livePoints,
     foldBg: foldBg,
@@ -200,13 +204,13 @@ export default function Home() {
   //=============== Benefits ===============
   const benefitsContent = {
     title: (<> How it <span className="text-primary">Benefits</span> You </>),
-    para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying about them and can always act on those insights.",
+    para: "Leading businesses succeed because they track their reputation in real time. With actionable insights at your fingertips, you can stay ahead of public sentiment and make smarter decisions. Boost your brand’s credibility with verified, trustworthy reviews that customers can depend on.",
     foldImg: benifits
   };
   //=============== Interviews ===============
   const interviewsContent = {
-    title: (<> Our Best <span className="text-primary block">TV Interviews</span> </>),
-    para: "Insightful conversations, expert interviews, and engaging stories that delve into [topic/industry/interest]. Whether you’re looking for inspiration, the latest trends, or just a fresh perspective, our episodes offer something for everyone. Join us each week for a new episode that will keep you informed and entertained.",
+    title: (<> Exclusive Insights from <span className="text-primary">Industry Leaders</span> </>),
+    para: (<> Gain access to exclusive TV interviews where top industry experts share their knowledge, best practices, and strategies for success. Whether you're seeking cutting-edge trends in <span className="font-semibold">online reputation management</span> or actionable advice from <span className="font-semibold">business leaders</span>, our TV interviews deliver invaluable insights to help you grow. </>),
     foldBg: foldBg,
     foldImg: interviews,
   };
@@ -214,39 +218,39 @@ export default function Home() {
   const reviewData = [
     {
       title: "Google Reviews",
-      description: "Analyze your online presence to identify strengths and weaknesses for improvement strategies.",
+      description: "Boost your business presence by increasing positive feedback on Google. Identify key areas for improvement and elevate your brand image.",
       icon: reviewIcon1
     },
     {
       title: "Sitejabber",
-      description: "Enhance your online visibility and improve search outcomes with effective strategies and practices.",
+      description: "Increase trust and online visibility with genuine reviews on Sitejabber, driving traffic and conversions.",
       icon: reviewIcon2
     },
     {
-      title: "Googfirms",
-      description: "Craft engaging press releases that communicate key messages and capture the audience’s attention effectively.",
+      title: "Goodfirms",
+      description: "Craft targeted reviews on GoodFirms to improve your search rankings and enhance business credibility.",
       icon: reviewIcon3
     },
     {
-      title: "Trust Pilot",
-      description: "Build trust and maintain a positive online image through effective review management strategies and techniques.",
+      title: "Trustpilot",
+      description: "Strengthen your online presence with verified, reliable reviews on Trustpilot that build long-lasting customer trust.",
       icon: reviewIcon4
     },
     {
       title: "Clutch",
-      description: "Create compelling podcast content that resonates with audiences and showcases your expertise and insights.",
+      description: "Position your business as a leader with positive reviews on Clutch, tailored for the B2B market.",
       icon: reviewIcon5
     },
     {
       title: "Facebook",
-      description: "Secure placements in articles that highlight your brand and promote your key messages effectively.",
+      description: "Enhance your brand’s visibility on the world’s largest social platform with authentic customer reviews.",
       icon: reviewIcon6
     }
   ];
   // =====================
   const buyReviewsContent = {
     title: (<> Buy Positive <span className="text-primary">Reviews</span> </>),
-    para: "At Gorilla Reviews, We Understand The Importance Of A Stellar Online Reputation.",
+    para: "Our review solutions help you enhance credibility and visibility across major platforms.",
     cardBg: reviewCard,
     cardsData: reviewData,
   };
@@ -286,28 +290,28 @@ export default function Home() {
   // =====================
   const casestudyContent = {
     bg: "bg-white",
-    title: (<> Our <span className="text-primary">Casestudy</span> </>),
-    para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying about them and can",
+    title: (<> Our <span className="text-primary">Case Studies</span> </>),
+    para: "Each case study highlights real-world examples of how our clients improved their visibility, customer trust, and brand perception, using our comprehensive reputation management strategies.",
     color: "text-black",
     isBlack: true,
     casestudyData: casestudyData,
   };
   //=============== Working ===============
   const workingContent = {
-    title: (<> Just By <span className="text-primary">Working With US.</span> </>),
-    para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying",
+    title: (<> Why Partner <span className="text-primary">With Us?</span> </>),
+    para: "We help businesses like yours harness the power of positive reviews, customer insights, and market trends to enhance your reputation management and drive growth.",
     workingImg: workingImg,
   };
   //=============== Expert ===============
   const expertContent = {
-    title: "Boost Your Reputation – Contact Our Experts Today",
-    para: "Top Businesses Are Winning Because They Have A Single Source Of Truth For Their Reputation Performance. They Always Know What Consumers Are Saying About Them And Can Always Act On Those Insights.",
+    title: "Contact Our Experts Today and Build A Strong Online Brand Reputation",
+    para: "Our expert team can help you leverage positive reviews across the most influential platforms, building credibility and driving growth.",
     foldBg: foldBg,
   };
   //=============== OurClients ===============
   const ourClientsContent = {
-    title: (<> <span className="text-primary">Our Client's</span> Review </>),
-    para: "Top businesses are winning because they have a single source of truth for their reputation performance. They always know what consumers are saying",
+    title: (<> <span className="text-primary">Our Client's</span> Success Stories </>),
+    para: "At the heart of every great business are satisfied customers. See how our reputation management services have transformed businesses and built trust in their markets.",
   };
 
   return (
