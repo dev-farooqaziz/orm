@@ -1,10 +1,25 @@
-import React from "react";
+"use client"
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 //========== Import Components
 import { CTA, AutoPlaySlider } from "@/components";
 
 const CaseStudy = ({ content }) => {
-    const { bg, title, para, color, isBlack , casestudyData, arrows } = content;
+    const { bg, title, para, color, isBlack, casestudyData, arrows } = content;
+    const [isMobile, setIsMobile] = useState(false)
+
+    const handleResize = () => {
+        if (typeof window !== "undefined") {
+            setIsMobile(window.innerWidth <= 768);
+        }
+    }
+
+
+    useEffect(() => {
+        handleResize();
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
     return (
         <>
             <section className={`py-12 lg:py-20 ${bg}`}>
@@ -31,10 +46,10 @@ const CaseStudy = ({ content }) => {
                         </div>
                     </div>
                     <div className="mt-10 lg:mt-16">
-                        <AutoPlaySlider arrowPosition={`${arrows}`}>
+                        <AutoPlaySlider arrowPosition={`${arrows}`} options={isMobile ? { align: "start" } : {}}>
                             {casestudyData.map((item, index) => (
                                 <div key={index} className="grow-0 shrink-0 basis-[100%] md:basis-8/12 pl-5">
-                                    <div className="grid grid-cols-12 items-center gap-8 md:gap-0 bg-[#202124] rounded-2xl p-8 xl:p-12">
+                                    <div className="grid grid-cols-12 items-center gap-y-8 md:gap-0 bg-[#202124] rounded-2xl p-8 xl:p-12">
                                         <div className="col-span-12 md:col-span-7 flex flex-col gap-5 lg:gap-8">
                                             <h3 className="text-[20px] md:text-[18px] lg:text-[25px] tracking-wide font-semibold font-poppins text-white">
                                                 {item.title}

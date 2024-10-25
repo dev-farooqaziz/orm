@@ -34,7 +34,7 @@ const slider = [
 ]
 
 const Hero = ({ content }) => {
-    const { BannerImg, title, para, cta1Txt, cta2Txt } = content;
+    const { BannerImg, title, para, desc, cta1Txt, cta2Txt, showDesc } = content;
     return (
         <>
             <section className="bg-[#202124] md:bg-none flex items-end h-auto 2xl:h-screen pt-[150px] md:pb-20 relative z-10 overflow-hidden">
@@ -43,6 +43,9 @@ const Hero = ({ content }) => {
                     <div className="grid grid-cols-12 gap-5">
                         <div className="col-span-12 lg:col-span-10 xl:col-span-7">
                             <h1 className="text-[30px] md:text-[50px] tracking-wide font-semibold font-poppins text-white leading-tight text-center md:text-left mb-5" priority="true">{title}</h1>
+                            {showDesc && (
+                                <p className="text-[20px] md:text-[16px] tracking-wide font-montserrat text-white text-center md:text-left mb-3 lg:mb-7">{desc}</p>
+                            )}
                             <p className="text-[20px] md:text-[16px] tracking-wide font-poppins text-white text-center md:text-left">{para}</p>
                             <div className="flex items-center justify-center md:justify-start gap-6 md:gap-10 mt-8">
                                 <CTA

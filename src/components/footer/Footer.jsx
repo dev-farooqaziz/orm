@@ -35,7 +35,7 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className="mt-6">
-                                <Image src={footerIcon} alt="ORM" className="w-[90%] xl:w-[50%]" />
+                                <Image src={footerIcon} alt="ORM" className="w-[90%]" />
                             </div>
                         </div>
                         <div className="flex flex-col gap-10">
@@ -100,17 +100,17 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className="flex items-center justify-between md:justify-start md:gap-14 xl:gap-10 mt-6">
-                                <div className="bg-white p-2 rounded-md cursor-pointer group hover:bg-primary">
-                                    <FaFacebookF className="text-[30px] group-hover:text-white" />
+                                <div className="bg-white p-2 rounded-md cursor-pointer group hover:bg-primary hover:duration-700 duration-700 ease-in-out">
+                                    <FaFacebookF className="text-[30px] group-hover:text-white group-hover:duration-700 duration-700 ease-in-out" />
                                 </div>
-                                <div className="bg-white p-2 rounded-md cursor-pointer group hover:bg-primary">
-                                    <FaTwitter className="text-[30px] group-hover:text-white" />
+                                <div className="bg-white p-2 rounded-md cursor-pointer group hover:bg-primary hover:duration-700 duration-700 ease-in-out">
+                                    <FaTwitter className="text-[30px] group-hover:text-white group-hover:duration-700 duration-700 ease-in-out" />
                                 </div>
-                                <div className="bg-white p-2 rounded-md cursor-pointer group hover:bg-primary">
-                                    <FaInstagram className="text-[30px] group-hover:text-white" />
+                                <div className="bg-white p-2 rounded-md cursor-pointer group hover:bg-primary hover:duration-700 duration-700 ease-in-out">
+                                    <FaInstagram className="text-[30px] group-hover:text-white group-hover:duration-700 duration-700 ease-in-out" />
                                 </div>
-                                <div className="bg-white p-2 rounded-md cursor-pointer group hover:bg-primary">
-                                    <FaLinkedinIn className="text-[30px] group-hover:text-white" />
+                                <div className="bg-white p-2 rounded-md cursor-pointer group hover:bg-primary hover:duration-700 duration-700 ease-in-out">
+                                    <FaLinkedinIn className="text-[30px] group-hover:text-white group-hover:duration-700 duration-700 ease-in-out" />
                                 </div>
                             </div>
                         </div>

@@ -33,6 +33,13 @@ const OurReview = dynamic(() => import('./ourreview/OurReview'))
 const TvInterview = dynamic(() => import('./tvinterview/TvInterview'))
 const Trends = dynamic(() => import('./trends/Trends'))
 const Channels = dynamic(() => import('./channels/Channels'))
+const ContactForm = dynamic(() => import('./contactForm/contactForm'))
+const Aboutus = dynamic(() => import('./aboutus/aboutus'))
+const Whatbelieve = dynamic(() => import('./whatbelieve/whatbelieve'))
+const NewcaseStudy = dynamic(() => import('./newcaseStudy/newcaseStudy'))
+const Aboutorm = dynamic(() => import('./aboutorm/aboutorm'))
+const Challanges = dynamic(() => import('./challanges/challanges'))
+const Platforms = dynamic(() => import('./platforms/platforms'))
 
 export {
     AutoPlaySlider,
@@ -68,4 +75,11 @@ export {
     TvInterview,
     Trends,
     Channels,
+    ContactForm,
+    Aboutus,
+    Whatbelieve,
+    NewcaseStudy,
+    Aboutorm,
+    Challanges,
+    Platforms
 }

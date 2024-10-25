@@ -40,6 +40,7 @@ export default function Home() {
     cta1Txt: "Explore The Platform",
     cta2Txt: "Watch Demo",
     BannerImg: BannerImg,
+    showDesc: false
   };
   //=============== Releases ===============
   const releasesContent = {

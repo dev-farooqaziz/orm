@@ -37,6 +37,7 @@ export default function Home() {
     cta1Txt: "Book Consultation",
     cta2Txt: "Watch Demo",
     BannerImg: BannerImg,
+    showDesc: false
   };
   //=============== Advertising ===============
   const advertisContent = {
@@ -66,6 +67,7 @@ export default function Home() {
       "We analyze and improve the visibility of your Knowledge Panel, making sure it accurately reflects your business, services, and achievements. We help you build trust and credibility with your audience, driving more engagement and potential leads.",
     ],
     foldBg: news2,
+    showSubtitle: false,
   };
   //=============== Solutions ===============
   const cardData = [

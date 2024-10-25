@@ -35,6 +35,7 @@ export default function Home() {
     cta1Txt: "Book Consultation",
     cta2Txt: "Watch Demo",
     BannerImg: BannerImg,
+    showDesc: false
   };
   //=============== Live ===============
   const livePoints = [
