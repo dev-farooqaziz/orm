@@ -4,7 +4,7 @@ import { Hero, OurClients, Expert, Working, Aboutorm, Challanges, Advertising, O
 //========== Import Icons
 import { FaStar } from "react-icons/fa";
 //========== Import Hero Images
-import BannerImg from "media/contact/heroBanner.png"
+import BannerImg from "media/natwest/heroBanner.png"
 //========== Import Advertising2 Images
 import news2 from "media/audit/news3.png"
 //========== Import Working Images

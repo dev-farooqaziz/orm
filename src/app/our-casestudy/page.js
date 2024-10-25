@@ -4,7 +4,7 @@ import { Hero, OurClients, Expert, Working, NewcaseStudy, } from '@/components'
 //========== Import Icons
 import { FaStar } from "react-icons/fa";
 //========== Import Hero Images
-import BannerImg from "media/about/heroBanner.png"
+import BannerImg from "media/our-casestudies/heroBanner.png"
 //========== Import Working Images
 import workingImg from "media/icons/working.png"
 //========== Import What Images
