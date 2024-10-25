@@ -14,7 +14,6 @@ const CaseStudy = ({ content }) => {
         }
     }
 
-
     useEffect(() => {
         handleResize();
         window.addEventListener("resize", handleResize);
