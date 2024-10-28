@@ -16,8 +16,8 @@ const Publication = ({ content }) => {
                         <div className="col-span-12 lg:col-span-6 hidden xl:block"></div>
                         <div className="col-span-12 xl:col-span-6 xl:ml-10">
                             <h2 className="text-[30px] md:text-[40px] xl:text-[50px] tracking-wide xl:leading-tight font-semibold font-poppins text-black text-center md:text-left mb-3 xl:mb-5">{title}</h2>
-                            {paragraphs.map((para) => (
-                                <p className="text-[16px] tracking-wide leading-loose font-poppins text-black mb-5">{para}</p>
+                            {paragraphs.map((para, index) => (
+                                <p key={index} className="text-[16px] tracking-wide leading-loose font-poppins text-black mb-5">{para}</p>
                             ))}
                             <div className="grid grid-cols-12 lg:grid-cols-8 xl:grid-cols-12 items-center gap-y-2 mb-5 xl:mb-8">
                                 {publicantPoints.map((item, index) => (

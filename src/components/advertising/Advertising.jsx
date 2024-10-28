@@ -17,8 +17,8 @@ const Advertising = ({ content }) => {
                                 <p className="text-[25px] leading-normal font-semibold font-poppins">{subtitle}</p>
                             )}
                             <h2 className="text-[30px] md:text-[40px] xl:text-[50px] tracking-wide xl:leading-tight font-semibold font-poppins text-black text-center md:text-left mb-3 xl:mb-5">{title}</h2>
-                            {paragraphs.map((para) => (
-                                <p className="text-[16px] tracking-wide leading-loose font-poppins text-black mb-5">{para}</p>
+                            {paragraphs.map((para, index) => (
+                                <p key={index} className="text-[16px] tracking-wide leading-loose font-poppins text-black mb-5">{para}</p>
                             ))}
                             <div className="flex items-center gap-6 lg:gap-10">
                                 <CTA
