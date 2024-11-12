@@ -70,8 +70,8 @@ export default function Home() {
       description: "Analyze your brand to identify strengths, weaknesses, and areas for improvement.",
     },
     {
-      title: "Positive Search Results",
-      description: "Improve your online visibility by optimizing search engine results for your brand.",
+      title: "Times Square Billboards",
+      description: "Captivate millions with iconic exposure on Times Square billboards—the world's most dynamic advertising stage.",
     },
     {
       title: "Press Releases",
@@ -90,8 +90,8 @@ export default function Home() {
       description: "Get featured in top publications to improve your brand’s authority and credibility.",
     },
     {
-      title: "Wikipedia Page Creation",
-      description: "Establish online credibility with a well-crafted Wikipedia page for your business.",
+      title: "Wikitia Page Creation",
+      description: "Establish online credibility with a well-crafted Wikitia page for your business.",
     },
     {
       title: "Print Placement (Magazine)",
