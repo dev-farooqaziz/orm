@@ -46,15 +46,15 @@ const Footer = () => {
                                     <div className="flex flex-col gap-1">
                                         <p className="text-[14px] font-light tracking-wide font-poppins text-white">
                                             <span>Address:</span>
-                                            <a href="#"> R. Adriano C. de Oliveira 4A, 1600-312</a>
+                                            <a href="#"> Office abc street</a>
                                         </p>
                                         <p className="text-[14px] font-light tracking-wide font-poppins text-white">
                                             <span>Phone:</span>
-                                            <a href="tel:123456789"> +1(123)456-7890</a>
+                                            <a href="tel:123456789"> (012) 345-6789</a>
                                         </p>
                                         <p className="text-[14px] font-light tracking-wide font-poppins text-white">
                                             <span>Email:</span>
-                                            <a href="mailt:abc@orm.com"> abc@orm.com</a>
+                                            <a href="mailt:info@xyz.com"> info@xyz.com</a>
                                         </p>
                                     </div>
                                 </div>
@@ -66,15 +66,15 @@ const Footer = () => {
                                     <div className="flex flex-col gap-1">
                                         <p className="text-[14px] font-light tracking-wide font-poppins text-white">
                                             <span>Address:</span>
-                                            <a href="#"> 36 Wharf Road, N1 7GR</a>
+                                            <a href="#"> Office abc street</a>
                                         </p>
                                         <p className="text-[14px] font-light tracking-wide font-poppins text-white">
                                             <span>Phone:</span>
-                                            <a href="tel:123456789"> +1(123)456-7890</a>
+                                            <a href="tel:123456789"> (012) 345-6789</a>
                                         </p>
                                         <p className="text-[14px] font-light tracking-wide font-poppins text-white">
                                             <span>Email:</span>
-                                            <a href="mailt:abc@orm.com"> abc@orm.com</a>
+                                            <a href="mailt:info@xyz.com"> info@xyz.com</a>
                                         </p>
                                     </div>
                                 </div>
@@ -86,32 +86,32 @@ const Footer = () => {
                                     <div className="flex flex-col gap-1">
                                         <p className="text-[14px] font-light tracking-wide font-poppins text-white">
                                             <span>Address:</span>
-                                            <a href="#"> Via orti 14, 20122</a>
+                                            <a href="#"> Office abc street</a>
                                         </p>
                                         <p className="text-[14px] font-light tracking-wide font-poppins text-white">
                                             <span>Phone:</span>
-                                            <a href="tel:123456789"> +1(123)456-7890</a>
+                                            <a href="tel:123456789"> (012) 345-6789</a>
                                         </p>
                                         <p className="text-[14px] font-light tracking-wide font-poppins text-white">
                                             <span>Email:</span>
-                                            <a href="mailt:abc@orm.com"> abc@orm.com</a>
+                                            <a href="mailt:info@xyz.com"> info@xyz.com</a>
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div className="flex items-center justify-between md:justify-start md:gap-14 xl:gap-10 mt-6">
-                                <div className="bg-white p-2 rounded-md cursor-pointer group hover:bg-primary hover:duration-700 duration-700 ease-in-out">
-                                    <FaFacebookF className="text-[30px] group-hover:text-white group-hover:duration-700 duration-700 ease-in-out" />
-                                </div>
-                                <div className="bg-white p-2 rounded-md cursor-pointer group hover:bg-primary hover:duration-700 duration-700 ease-in-out">
-                                    <FaTwitter className="text-[30px] group-hover:text-white group-hover:duration-700 duration-700 ease-in-out" />
-                                </div>
-                                <div className="bg-white p-2 rounded-md cursor-pointer group hover:bg-primary hover:duration-700 duration-700 ease-in-out">
-                                    <FaInstagram className="text-[30px] group-hover:text-white group-hover:duration-700 duration-700 ease-in-out" />
-                                </div>
-                                <div className="bg-white p-2 rounded-md cursor-pointer group hover:bg-primary hover:duration-700 duration-700 ease-in-out">
-                                    <FaLinkedinIn className="text-[30px] group-hover:text-white group-hover:duration-700 duration-700 ease-in-out" />
-                                </div>
+                                <Link href="javascript:;" className="bg-white p-2 rounded-md cursor-pointer group hover:bg-primary hover:duration-700 duration-700 ease-in-out">
+                                    <FaFacebookF className="text-[25px] group-hover:text-white group-hover:duration-700 duration-700 ease-in-out" />
+                                </Link>
+                                <Link href="javascript:;" className="bg-white p-2 rounded-md cursor-pointer group hover:bg-primary hover:duration-700 duration-700 ease-in-out">
+                                    <FaTwitter className="text-[25px] group-hover:text-white group-hover:duration-700 duration-700 ease-in-out" />
+                                </Link>
+                                <Link href="javascript:;" className="bg-white p-2 rounded-md cursor-pointer group hover:bg-primary hover:duration-700 duration-700 ease-in-out">
+                                    <FaInstagram className="text-[25px] group-hover:text-white group-hover:duration-700 duration-700 ease-in-out" />
+                                </Link>
+                                <Link href="javascript:;" className="bg-white p-2 rounded-md cursor-pointer group hover:bg-primary hover:duration-700 duration-700 ease-in-out">
+                                    <FaLinkedinIn className="text-[25px] group-hover:text-white group-hover:duration-700 duration-700 ease-in-out" />
+                                </Link>
                             </div>
                         </div>
                     </div>
